@@ -13,14 +13,27 @@ class Database
 
 		try {
 		  $this->conn = new PDO("mysql:host=$host;dbname=$dbName", $dbUser, $dbPass);
-		  echo "Connected successfully";
-		} catch(PDOException $e) {
+		}catch(PDOException $e) {
 		  echo "Connection failed: " . $e->getMessage();
 		}
+	}
+
+	public function exec($sql)
+	{
+		$statement = $this->conn->prepare($sql);
+    	$statement->execute();
+	}
+
+	public function fetch($sql)
+	{
+		$statement = $this->conn->prepare($sql);
+        $statement->execute();
+        return $statement->fetchAll();
 	}
 	
 }
 
 // $db = new Database();
+//create read update delete
 
 ?>

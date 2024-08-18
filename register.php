@@ -1,7 +1,9 @@
 <?php include 'header.php'?>
+<?php include 'navbar.php'?>
+<?php include 'core/User.php'?>
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/register.css">
+<!-- Custom CSS -->
+<link rel="stylesheet" href="assets/css/register.css">
         
 
  <main>
@@ -14,47 +16,47 @@
           <div class="container">
           	<div class="row">
           	 <div class="col-8 offset-2">
+             <?php
+                if(isset($_POST['submit'])){
+                    $user = new User;
+                    $userCount = $user->checkPreviousUser($_POST['username'],$_POST['email']);
+                    if(count($userCount) > 0){
+                        echo "<p class='alert alert-warning'>Username/Email Exits</p>"; 
+                    }else{
+                        $user->register($_POST['username'],$_POST['email'],md5($_POST['password']),md5($_POST['cpassword']));
+                        echo "<p class='alert alert-success'>Register Sucessfully!</p>";
+                        }
+                   
+                } 
+
+
+            ?> 
           		<form name="f2" action="" onsubmit = "return validation()" method="POST">
 
-                <div class="row mt-4">
-                    <div class="col-md-6 mb-4">
-
-                      <div data-mdb-input-init class="form-outline">
-                        <input type="text" id="firstName" class="form-control form-control-lg" />
-                        <label class="form-label" for="firstName">First Name</label>
-                      </div>
-
-                      </div>
-                    <div class="col-md-6 mb-4">
-
-                      <div data-mdb-input-init class="form-outline">
-                        <input type="text" id="lastName" class="form-control form-control-lg" />
-                        <label class="form-label" for="lastName">Last Name</label>
-                      </div>
-
-                    </div>
-                </div>
-
-                    <input class="form-control form-control-lg" type="email" id="email" name="reg-email" autocomplete="off">
+                   
+                    <input class="form-control form-control-lg" type="text" name="username" id="username" autocomplete="off" required>
+                    <label class="form-label mb-4" for="username">User Name</label>
+                  
+                    <input class="form-control form-control-lg" type="email" name="email" id="email" autocomplete="off" required>
                      <label class="form-label mb-4" for="email">E-mail<span class="req">*</span></label>
 
-                    <input class="form-control form-control-lg" type="password" id="password" name="reg-pass" required autocomplete="off">
+                    <input class="form-control form-control-lg" type="password" id="password" name="password" required autocomplete="off">
                      <label class="form-label mb-4" for="password">Password<span class="req">*</span></label>
                 <div class="form-group"> 
                       
-                     <input type="password" class="form-control" id="cpassword" name="cpassword" autocomplete="off">
+                     <input class="form-control form-control-lg" type="password"  id="cpassword" name="cpassword" autocomplete="off" required>
                      <label class="form-label mb-4" for="cpassword">Confirm Password</label>
                 
                      <small id="emailHelp" class="form-text text-muted fw-lighter ms-5">Make sure to type the same password</small> 
 
                 </div>  
                 <div class="form-check d-flex justify-content-center mb-5">
-                  <input class="form-check-input me-2 check" type="checkbox" value="" id="form2Example3cg">
+                  <input class="form-check-input me-2 check" type="checkbox" name="check" value="" id="form2Example3cg">
                   <label class="form-check-label" for="form2Example3g">I agree all statements in <a href="#" class="text-body"><u>Terms of service</u></a></label>
                 </div>
 
                	<div class="d-flex justify-content-center mb-4">
-                  <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-block btn-lg border border-0 rounded-2 gradient-custom-4 text-white regBtn">Register</button>
+                  <button  type="submit" name="submit" class="btn btn-primary btn-block btn-lg border border-0 rounded-2 gradient-custom-4 regBtn">Register</button>
                 </div>
                     
                 </form>
@@ -68,53 +70,18 @@
 
 
 <?php include 'footer.php'?>
-
-
-<?php
-    include('connect.php'); 
-    if(isset($_GET['sign-btn'])){
-        $name1 = $_GET['name1'];
-        $name2 = $_GET['name2'];
-        $sign_email = $_GET['sign-email'];
-        $sign_password = $_GET['sign-password'];
-    }
-
-    class signup_info{
-    private $conn;
-
-       public function add_data($data){
-        $name1 = $data['name1'];
-        $name2 = $data['name2'];
-        $sign_email = $data['sign-email'];
-        $sign_pass = $data['sign-pass'];
-
-           $query = "INSERT INTO signup_info(name1,name2,sign-email,sign-pass) VALUE ('$name1','$name2',$sign_email','$sign_pass')";
-
-           if(mysqli_query($this->conn, $query)){
-               return "Information Added Sucessfully";
-           }
-       }
-
-        public function signup_info($data){
-        $name1 = $data['name1'];
-        $name2 = $data['name2'];
-        $sign_email = $data['sign-email'];
-        $sign_pass = MD5($data['sign-pass']); 
-
-        $query = "SELECT * FROM signup_info WHERE sign_email='$sign_email' && sign_pass='$sign_pass'";    
-        if(mysqli_query($this->conn, $query)){
-            $signup_info = msqli_query($this->conn, $query);
-            if($signup_info){
-                header("location:index.html");
-                $signup_data = mysqli_fetch_assoc($signup_info);
-               
-            }
-        }
-       }
-
-
-  }
-
-
-
-?>
+  <script>  
+        function validation()  
+        {   
+        var password=document.f2.password.value;  
+        var cpassword=document.f2.cpassword.value;  
+        
+        if(password==cpassword){  
+        return true;  
+        }  
+        else{  
+        alert("password must be same!");  
+        return false;  
+        } 
+        } 
+  </script>

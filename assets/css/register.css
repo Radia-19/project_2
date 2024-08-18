@@ -135,11 +135,22 @@ form{
 }
 .regBtn{
     width: 500px;
+    padding: 10px 20px;
+    margin-top: 30px ;
+    margin-bottom: 30px;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 10%);
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 5px  3px 5px 0px hwb(24 32% 35%); 
+}
 }
 .regBtn:hover{
-    color: grey;
-    background-color: white;
-
+    background: #dee1e8;
+    transition:all 0.3s ease;
 }
 /*.text-muted{
     text-align: right;

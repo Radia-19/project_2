@@ -1,4 +1,5 @@
 <?php include 'header.php'?>
+<?php include 'navbar.php'?>
 
 <main>
         <section class="banner">
@@ -46,11 +47,9 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
               </button>
-            </div>
-            
-          </section>
-      
-          <!-- End Banner -->
+            </div>  
+        </section>
+        <!-- End Banner -->
         <section class="sec1">
             <div class="s1row">
                 <div class="s1col">
@@ -80,7 +79,6 @@
                         We try our best to accomplish your needs and preferences, that's why we have a 24/7 service team to co-operate with you.
                     </p></div>
             </div>
-    
         </section>
         <!-- END sec1 -->
         <section class="sec2">
@@ -151,8 +149,8 @@
                 <div class="s3col">
                 <div class="s3icon"><i class="fa-solid fa-stethoscope"></i></div>
                 <div class="s3para">
-                    <p>Popular</p>
-                    <h5>Examinations</h5>
+                    <p class="">Popular</p>
+                    <h5 >Examinations</h5>
                 </div>
                 </div>
                 <div class="s3col"> 
@@ -172,40 +170,40 @@
             <div class="menu-row">
                 <div class="col-left">
                     <div class="menu-img"><img src="assets/images/towfiqu-barbhuiya-Yw9Vgr6i_-0-unsplash.jpg" alt="towfiqu-barbhuiya-Yw9Vgr6i_-0-unsplash.jp"></div>
-                    <div class="menu3">
-                        <h5>
-                            <span class="text3">Cold & Cough</span> 
+                    <div class="menu3"> 
+                        <a href="symptoms.php"><h5>
+                        <span class="text3">Cold & Cough</span> 
                         <span class="text-primary">&dollar;5</span></h5>
-                        <p class="para3">Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                        <p class="para3">Lorem ipsum dolor sit, amet consectetur adipisicing elit</p></a>
                     </div>
-                    </div>
-                    <div class="col-right">
-                        <div class="menu-img"><img src="assets/images/myriam-zilles-KltoLK6Mk-g-unsplash.jpg" alt="myriam-zilles-KltoLK6Mk-g-unsplash.jpg"></div>
+                </div>
+                <div class="col-right">
+                    <div class="menu-img"><img src="assets/images/myriam-zilles-KltoLK6Mk-g-unsplash.jpg" alt="myriam-zilles-KltoLK6Mk-g-unsplash.jpg"></div>
                         <div class="menu3">
-                            <h5>
-                                <span class="text3">Fever</span> 
-                            <span class="text-primary">&dollar; 115</span></h5>
-                            <p class="para3">Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
-                            </div>
+                            <a href="#"><h5>
+                            <span class="text3">Fever</span> 
+                            <span class="text-primary">&dollar;5</span></h5>
+                            <p class="para3">Lorem ipsum dolor sit, amet consectetur adipisicing elit</p></a>
+                        </div>
                 </div>
             </div>
             <div class="menu-row">
                 <div class="col-left">
                     <div class="menu-img"><img src="assets/images/pexels-pixabay-208512.jpg" alt="pexels-pixabay-208512.jpg"></div>
                     <div class="menu3">
-                        <h5>
-                            <span class="text3">Allergies</span> 
-                        <span class="text-primary">&dollar;115</span></h5>
-                        <p class="para3">Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                        <a href="#"><h5>
+                        <span class="text3">Allergies</span> 
+                        <span class="text-primary">&dollar;5</span></h5>
+                        <p class="para3">Lorem ipsum dolor sit, amet consectetur adipisicing elit</p></a>
                     </div>
                     </div>
                 <div class="col-right">
                  <div class="menu-img"><img src="assets/images/mufid-majnun-cM1aU42FnRg-unsplash.jpg" alt="mufid-majnun-cM1aU42FnRg-unsplash.jpg"></div>
                  <div class="menu3">
-                            <h5>
-                                <span class="text3">Asthma</span> 
-                            <span class="text-primary">&dollar; 115</span></h5>
-                            <p class="para3">Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                            <a href="#"><h5>
+                            <span class="text3">Asthma</span> 
+                            <span class="text-primary">&dollar;5</span></h5>
+                            <p class="para3">Lorem ipsum dolor sit, amet consectetur adipisicing elit</p></a>
                             </div>
                 </div>
             </div>
@@ -213,43 +211,43 @@
                 <div class="col-left">
                     <div class="menu-img"><img src="assets/images/pexels-daniel-frank-287227.jpg" alt="pexels-daniel-frank-287227.jpg"></div>
                     <div class="menu3">
-                        <h5>
-                            <span class="text3">Headache</span> 
-                        <span class="text-primary">&dollar;115</span></h5>
-                        <p class="para3">Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                        <a href="#"><h5>
+                        <span class="text3">Gastric</span> 
+                        <span class="text-primary">&dollar;5</span></h5>
+                        <p class="para3">Lorem ipsum dolor sit, amet consectetur adipisicing elit</p></a>
                     </div>
                     </div>
                     <div class="col-right">
-                        <div class="menu-img"><img src="assets/images/marcelo-leal-k7ll1hpdhFA-unsplash.jpg" alt="marcelo-leal-k7ll1hpdhFA-unsplash.jpg"></div>
-                        <div class="menu3">
-                            <h5>
-                                <span class="text3">Diarrhea</span> 
-                            <span class="text-primary">&dollar; 115</span></h5>
-                            <p class="para3">Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
-                            </div>
+                    <div class="menu-img"><img src="assets/images/marcelo-leal-k7ll1hpdhFA-unsplash.jpg" alt="marcelo-leal-k7ll1hpdhFA-unsplash.jpg"></div>
+                    <div class="menu3">
+                        <a href="#"><h5>
+                        <span class="text3">Diarrhea</span> 
+                        <span class="text-primary">&dollar;5</span></h5>
+                        <p class="para3">Lorem ipsum dolor sit, amet consectetur adipisicing elit</p></a>
+                    </div>
                 </div>
             </div>
             <div class="menu-row">
                 <div class="col-left">
                     <div class="menu-img"><img src="assets/images/louis-reed-pwcKF7L4-no-unsplash.jpg" alt="louis-reed-pwcKF7L4-no-unsplash.jpg"></div>
                     <div class="menu3">
-                        <h5>
-                            <span class="text3">Nausea & Vomiting</span> 
-                        <span class="text-primary">&dollar;115</span></h5>
-                        <p class="para3">Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                        <a href="#"><h5>
+                        <span class="text3">Nausea & Vomiting</span> 
+                        <span class="text-primary">&dollar;5</span></h5>
+                        <p class="para3">Lorem ipsum dolor sit, amet consectetur adipisicing elit</p></a>
                     </div>
                     </div>
                     <div class="col-right">
                         <div class="menu-img"><img src="assets/images/national-cancer-institute-XknuBmnjbKg-unsplash.jpg" alt="national-cancer-institute-XknuBmnjbKg-unsplash.jpg"></div>
                         <div class="menu3">
-                            <h5>
-                                <span class="text3">Flu</span> 
-                            <span class="text-primary">&dollar; 115</span></h5>
-                            <p class="para3">Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                            <a href="#"><h5>
+                            <span class="text3">Flu</span> 
+                            <span class="text-primary">&dollar;5</span></h5>
+                            <p class="para3">Lorem ipsum dolor sit, amet consectetur adipisicing elit</p></a>
                             </div>
                 </div>
             </div>
-        </div>
+          </div>
         </section>
         <!-- End sec3 -->
         <section class="sec4">
@@ -293,8 +291,7 @@
                     <button type="submit" class="primary-btn1">Book Now</button>
                 </form>
             </div>
-            </div>
-            
+            </div>    
         </section>
         <!-- End sec4 -->
         <section class="sec5 ">

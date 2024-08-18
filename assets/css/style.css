@@ -26,7 +26,6 @@ a {
     width: 80px;
     flex-basis: 50%;
 }
-
 .navber-brand{
     color: #3E3E3E;
     font-size: 22px;
@@ -48,15 +47,15 @@ a {
     letter-spacing: -0.1px;
 }
 .reg{
-    color: #9A9EA7!important;
+    color: #9A9EA7;
     font-size: 16px;
     font-weight: 500 ;
     line-height: 24px;
     letter-spacing: -0.1px;
 }
-/*.reg {
-    background-color: #071331;
-}*/
+.reg:hover{
+    color: #3498DB; 
+}
 .reg img{
     background:#F5F6F7;
     border-radius: 10px;
@@ -66,19 +65,19 @@ a {
     margin-left: 5px;
 }
 .reg img:hover{
-    background-color: #3498DB;
+    background-color: #AED6F1 !important;
     color: #071331;
 }
-/* .navber-nav .nav-link.active, .navber-nav .show>.nav-link{
+ .navber-nav .nav-link.active, .navber-nav .show>.nav-link{
     color: rgb(15, 15, 68);
-} */
+} 
 .nav-link:focus, .nav-link:hover{
     color: #3498DB;   
 }
 .navbar-expand-lg .navbar-nav .nav-link{
     padding-left: 20px;
 }
-/* End Header */
+/* End Navbar */
 
 .banner-img1{
     min-height: 500px;
@@ -361,6 +360,10 @@ button{
     padding-top: 5px;
     color: gray;
     font-size: 16px;
+}
+.s3para h5{
+    padding-bottom: 10px;
+    margin-bottom: 5px;
 }
 .menu{
     padding-top: 60px;
