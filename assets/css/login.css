@@ -86,6 +86,12 @@ input{
     background:#fff;
     box-shadow: 0 1px 1px 0 rgb(0 0 0 / 10%);
 } 
+option{
+    color: gray;
+    font-weight: 700;
+    font-size: 16px;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 10%);
+}
 input:focus{
     border: 0;
     border: 1px solid rgb(196, 196, 196);

@@ -21,24 +21,24 @@ if(!isset($_SESSION['username'])){
                     <a class="nav-link"  href="index.php">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">About us</a>
+                    <a class="nav-link" href="about.php">About us</a>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" rlie="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="contact.php" rlie="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Contact
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">E-mail</a></li>
+                      <li><a class="dropdown-item" href="contact.php">E-mail</a></li>
                       <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Phone</a></li>
+                      <li><a class="dropdown-item" href="contact.php">Phone</a></li>
                       <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Address</a></li>
+                      <li><a class="dropdown-item" href="contact.php">Address</a></li>
                     </ul>
                   </li>
 
                   <?php if(isset($_SESSION['username'])): ?>  
-                    <a class="nav-link" href="symptoms.php">Prediction</a>
-                    <a class="nav-link" href="logout.php"><?= $_SESSION['username']."(logout)"?></a>
+                    <a class="nav-link" href="prediction.php">Prediction</a>
+                    <a class="nav-link" href="logout.php">Logout (<?= $_SESSION['username'] ?>)</a>
                   <?php else: ?>
                     <li class="nav-item">
                     <a class="nav-link login-popup" href="login.php">Login</a></li>

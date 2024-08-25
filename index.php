@@ -52,32 +52,45 @@
         <!-- End Banner -->
         <section class="sec1">
             <div class="s1row">
+               
                 <div class="s1col">
+                    <a href="#doctors">
                     <i class="fa-solid fa-user-doctor"></i>
                     <h2 class="heading-1">Doctors</h2>
                     <p class="text-1">
                         We have some skillful, professional Doctors & Surgeons who make our place extraordinary and well-knowned.
                     </p>
+                    </a>
                 </div>
+               
                 <div class="s1col">
+                    <a href="nurse.php">
                     <i class="fa-solid fa-laptop-medical"></i>
                     <h2 class="heading-1">Quality Survices</h2>
                     <p class="text-1">
                         Here's the place where you can find the perfect solution and quality medical survices. We run all kind of test.
                     </p>
+                    </a>
                 </div>
                 <div class="s1col">
+                    <a href="nurse.php">
                     <i class="fa-solid fa-stethoscope"></i>
                     <h2 class="heading-1">Online Checkups</h2>
                     <p class="text-1">
                         We have fast and easy online services. So you can find the treatment you want. 
-                    </p></div>
+                    </p>
+                    </a>
+                </div>
                 <div class="s1col">
+                    <a href="nurse.php">
                     <i class="fa-sharp fa-solid fa-headset"></i>
                     <h2 class="heading-1">24/7 Services</h2>
                     <p class="text-1">
                         We try our best to accomplish your needs and preferences, that's why we have a 24/7 service team to co-operate with you.
-                    </p></div>
+                    </p>
+                    </a>
+                </div>
+
             </div>
         </section>
         <!-- END sec1 -->
@@ -149,21 +162,21 @@
                 <div class="s3col">
                 <div class="s3icon"><i class="fa-solid fa-stethoscope"></i></div>
                 <div class="s3para">
-                    <p class="">Popular</p>
+                    <p class="mb-0">Popular</p>
                     <h5 >Examinations</h5>
                 </div>
                 </div>
                 <div class="s3col"> 
                     <div class="s3icon"><i class="fa-solid fa-vials"></i></div>
                     <div class="s3para">
-                    <p>Special</p>
+                    <p class="mb-0">Special</p>
                     <h5>Check-ups</h5>
                 </div></div>
                 <div class="s3col">  
                     <div class="s3icon"><i class="fa-solid fa-bandage"></i></div>
                     <div class="s3para">
-                    <p>Lab</p>
-                   <h5>Tests</h5>
+                    <p class="mb-0">Lab</p>
+                    <h5>Tests</h5>
                 </div></div>
             </div>
             <div class="menu">
@@ -171,7 +184,7 @@
                 <div class="col-left">
                     <div class="menu-img"><img src="assets/images/towfiqu-barbhuiya-Yw9Vgr6i_-0-unsplash.jpg" alt="towfiqu-barbhuiya-Yw9Vgr6i_-0-unsplash.jp"></div>
                     <div class="menu3"> 
-                        <a href="symptoms.php"><h5>
+                        <a href="prediction.php"><h5>
                         <span class="text3">Cold & Cough</span> 
                         <span class="text-primary">&dollar;5</span></h5>
                         <p class="para3">Lorem ipsum dolor sit, amet consectetur adipisicing elit</p></a>
@@ -181,7 +194,7 @@
                     <div class="menu-img"><img src="assets/images/myriam-zilles-KltoLK6Mk-g-unsplash.jpg" alt="myriam-zilles-KltoLK6Mk-g-unsplash.jpg"></div>
                         <div class="menu3">
                             <a href="#"><h5>
-                            <span class="text3">Fever</span> 
+                            <span class="text3">Diabetes</span> 
                             <span class="text-primary">&dollar;5</span></h5>
                             <p class="para3">Lorem ipsum dolor sit, amet consectetur adipisicing elit</p></a>
                         </div>
@@ -212,7 +225,7 @@
                     <div class="menu-img"><img src="assets/images/pexels-daniel-frank-287227.jpg" alt="pexels-daniel-frank-287227.jpg"></div>
                     <div class="menu3">
                         <a href="#"><h5>
-                        <span class="text3">Gastric</span> 
+                        <span class="text3">Hepatitis B</span> 
                         <span class="text-primary">&dollar;5</span></h5>
                         <p class="para3">Lorem ipsum dolor sit, amet consectetur adipisicing elit</p></a>
                     </div>
@@ -221,7 +234,7 @@
                     <div class="menu-img"><img src="assets/images/marcelo-leal-k7ll1hpdhFA-unsplash.jpg" alt="marcelo-leal-k7ll1hpdhFA-unsplash.jpg"></div>
                     <div class="menu3">
                         <a href="#"><h5>
-                        <span class="text3">Diarrhea</span> 
+                        <span class="text3">Influenza</span> 
                         <span class="text-primary">&dollar;5</span></h5>
                         <p class="para3">Lorem ipsum dolor sit, amet consectetur adipisicing elit</p></a>
                     </div>
@@ -232,7 +245,7 @@
                     <div class="menu-img"><img src="assets/images/louis-reed-pwcKF7L4-no-unsplash.jpg" alt="louis-reed-pwcKF7L4-no-unsplash.jpg"></div>
                     <div class="menu3">
                         <a href="#"><h5>
-                        <span class="text3">Nausea & Vomiting</span> 
+                        <span class="text3">Heart Disease</span> 
                         <span class="text-primary">&dollar;5</span></h5>
                         <p class="para3">Lorem ipsum dolor sit, amet consectetur adipisicing elit</p></a>
                     </div>
@@ -241,7 +254,7 @@
                         <div class="menu-img"><img src="assets/images/national-cancer-institute-XknuBmnjbKg-unsplash.jpg" alt="national-cancer-institute-XknuBmnjbKg-unsplash.jpg"></div>
                         <div class="menu3">
                             <a href="#"><h5>
-                            <span class="text3">Flu</span> 
+                            <span class="text3">Bacterial sinusitis</span> 
                             <span class="text-primary">&dollar;5</span></h5>
                             <p class="para3">Lorem ipsum dolor sit, amet consectetur adipisicing elit</p></a>
                             </div>
@@ -294,7 +307,7 @@
             </div>    
         </section>
         <!-- End sec4 -->
-        <section class="sec5 ">
+        <section class="sec5" id="doctors">
             <div class="s5head">
                 <div class="divider-head5">
                     <div class="divider5"></div>

@@ -20,10 +20,12 @@
                 if(isset($_POST['submit'])){
                     $user = new User;
                     $userCount = $user->checkPreviousUser($_POST['username'],$_POST['email']);
+                   
                     if(count($userCount) > 0){
                         echo "<p class='alert alert-warning'>Username/Email Exits</p>"; 
                     }else{
                         $user->register($_POST['username'],$_POST['email'],md5($_POST['password']),md5($_POST['cpassword']));
+
                         echo "<p class='alert alert-success'>Register Sucessfully!</p>";
                         }
                    
