@@ -51,9 +51,9 @@
         </section>
         <!-- End Banner -->
         <section class="sec1">
-            <div class="s1row">
+            <div class="row d-flex justify-content-between">
                
-                <div class="s1col">
+                <div class="col-12 col-md-2 mb-2 s1col">
                     <a href="#doctors">
                     <i class="fa-solid fa-user-doctor"></i>
                     <h2 class="heading-1">Doctors</h2>
@@ -63,7 +63,7 @@
                     </a>
                 </div>
                
-                <div class="s1col">
+                <div class="col-12 col-md-2 mb-2 s1col">
                     <a href="nurse.php">
                     <i class="fa-solid fa-laptop-medical"></i>
                     <h2 class="heading-1">Quality Survices</h2>
@@ -72,7 +72,7 @@
                     </p>
                     </a>
                 </div>
-                <div class="s1col">
+                <div class="col-12 col-md-2 mb-2 s1col">
                     <a href="nurse.php">
                     <i class="fa-solid fa-stethoscope"></i>
                     <h2 class="heading-1">Online Checkups</h2>
@@ -81,7 +81,7 @@
                     </p>
                     </a>
                 </div>
-                <div class="s1col">
+                <div class="col-12 col-md-2 mb-2 s1col">
                     <a href="nurse.php">
                     <i class="fa-sharp fa-solid fa-headset"></i>
                     <h2 class="heading-1">24/7 Services</h2>
@@ -95,8 +95,8 @@
         </section>
         <!-- END sec1 -->
         <section class="sec2">
-            <div class="s2row">
-                <div class="s2left">
+            <div class="row d-flex justify-content-between">
+                <div class="col-12 col-md-5 s2left">
                     <div class="top-box">
                         <div class="img1">
                             <img src="assets/images/benyamin-bohlouli-e7MJLM5VGjY-unsplash.jpg" alt="benyamin-bohlouli-e7MJLM5VGjY-unsplash.jpg">
@@ -116,7 +116,7 @@
     
     
                 </div>
-                <div class="s2right">
+                <div class="col-12 col-md-5 s2right">
                     <div class="divider-head">
                         <h3>About Us</h3>
                         <div class="divider"></div>
@@ -126,7 +126,7 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti assumenda quam sed mollitia ducimus doloremque ipsa beatae quas repudiandae nihil! </p>
                     <div class="s2years">
                         <div class="years-left">
-                            <div class="num">
+                            <div class="num ps-2">
                                 <h1>15</h1>
                             </div>
                             <div class="experience">
@@ -134,7 +134,7 @@
                             </div>
                         </div>
                         <div class="years-right">
-                            <div class="num2">
+                            <div class="num2 ps-2">
                                 <h1>25</h1>
                             </div>
                             <div class="popular">
@@ -158,30 +158,32 @@
             <h2>Disease Prediction</h2>
             </div>
             
-            <div class="s3row">
-                <div class="s3col">
-                <div class="s3icon"><i class="fa-solid fa-stethoscope"></i></div>
-                <div class="s3para">
+            <div class="row s3row">
+                <div class="col-12 col-md-4">
+                    <i class="fa-solid fa-stethoscope s3icon"></i>
+                    <div class="s3para">
                     <p class="mb-0">Popular</p>
-                    <h5 >Examinations</h5>
+                    <h5>Examinations</h5>
+                    </div>
                 </div>
-                </div>
-                <div class="s3col"> 
-                    <div class="s3icon"><i class="fa-solid fa-vials"></i></div>
+                <div class="col-12 col-md-4"> 
+                    <i class="fa-solid fa-vials s3icon"></i>
                     <div class="s3para">
                     <p class="mb-0">Special</p>
                     <h5>Check-ups</h5>
-                </div></div>
-                <div class="s3col">  
-                    <div class="s3icon"><i class="fa-solid fa-bandage"></i></div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">  
+                    <i class="fa-solid fa-bandage s3icon"></i>
                     <div class="s3para">
-                    <p class="mb-0">Lab</p>
-                    <h5>Tests</h5>
-                </div></div>
+                    <p class="mb-0">General</p>
+                    <h5>Lab Tests</h5>
+                    </div>
+                </div>
             </div>
             <div class="menu">
-            <div class="menu-row">
-                <div class="col-left">
+            <div class="row menu-row">
+                <div class="col-12 col-md-5 col-left">
                     <div class="menu-img"><img src="assets/images/towfiqu-barbhuiya-Yw9Vgr6i_-0-unsplash.jpg" alt="towfiqu-barbhuiya-Yw9Vgr6i_-0-unsplash.jp"></div>
                     <div class="menu3"> 
                         <a href="prediction.php"><h5>
@@ -190,7 +192,7 @@
                         <p class="para3">Lorem ipsum dolor sit, amet consectetur adipisicing elit</p></a>
                     </div>
                 </div>
-                <div class="col-right">
+                <div class="col-12 col-md-5 col-right">
                     <div class="menu-img"><img src="assets/images/myriam-zilles-KltoLK6Mk-g-unsplash.jpg" alt="myriam-zilles-KltoLK6Mk-g-unsplash.jpg"></div>
                         <div class="menu3">
                             <a href="#"><h5>
@@ -200,8 +202,8 @@
                         </div>
                 </div>
             </div>
-            <div class="menu-row">
-                <div class="col-left">
+            <div class="row menu-row">
+                <div class="col-12 col-md-5 col-left">
                     <div class="menu-img"><img src="assets/images/pexels-pixabay-208512.jpg" alt="pexels-pixabay-208512.jpg"></div>
                     <div class="menu3">
                         <a href="#"><h5>
@@ -210,7 +212,7 @@
                         <p class="para3">Lorem ipsum dolor sit, amet consectetur adipisicing elit</p></a>
                     </div>
                     </div>
-                <div class="col-right">
+                <div class="col-12 col-md-5 col-right">
                  <div class="menu-img"><img src="assets/images/mufid-majnun-cM1aU42FnRg-unsplash.jpg" alt="mufid-majnun-cM1aU42FnRg-unsplash.jpg"></div>
                  <div class="menu3">
                             <a href="#"><h5>
@@ -220,8 +222,8 @@
                             </div>
                 </div>
             </div>
-            <div class="menu-row">
-                <div class="col-left">
+            <div class="row menu-row">
+                <div class="col-12 col-md-5 col-left">
                     <div class="menu-img"><img src="assets/images/pexels-daniel-frank-287227.jpg" alt="pexels-daniel-frank-287227.jpg"></div>
                     <div class="menu3">
                         <a href="#"><h5>
@@ -230,7 +232,7 @@
                         <p class="para3">Lorem ipsum dolor sit, amet consectetur adipisicing elit</p></a>
                     </div>
                     </div>
-                    <div class="col-right">
+                    <div class="col-12 col-md-5 col-right">
                     <div class="menu-img"><img src="assets/images/marcelo-leal-k7ll1hpdhFA-unsplash.jpg" alt="marcelo-leal-k7ll1hpdhFA-unsplash.jpg"></div>
                     <div class="menu3">
                         <a href="#"><h5>
@@ -240,8 +242,8 @@
                     </div>
                 </div>
             </div>
-            <div class="menu-row">
-                <div class="col-left">
+            <div class="row menu-row">
+                <div class="col-12 col-md-5 col-left">
                     <div class="menu-img"><img src="assets/images/louis-reed-pwcKF7L4-no-unsplash.jpg" alt="louis-reed-pwcKF7L4-no-unsplash.jpg"></div>
                     <div class="menu3">
                         <a href="#"><h5>
@@ -250,7 +252,7 @@
                         <p class="para3">Lorem ipsum dolor sit, amet consectetur adipisicing elit</p></a>
                     </div>
                     </div>
-                    <div class="col-right">
+                    <div class="col-12 col-md-5 col-right">
                         <div class="menu-img"><img src="assets/images/national-cancer-institute-XknuBmnjbKg-unsplash.jpg" alt="national-cancer-institute-XknuBmnjbKg-unsplash.jpg"></div>
                         <div class="menu3">
                             <a href="#"><h5>
@@ -264,11 +266,11 @@
         </section>
         <!-- End sec3 -->
         <section class="sec4">
-            <div class="form-row">
-             <div class="col1">
+            <div class="row g-0 form-row">
+             <div class="col-12 col-md-6 col1">
                 <img src="assets/images/marcelo-leal-k7ll1hpdhFA-unsplash.jpg" alt="marcelo-leal-k7ll1hpdhFA-unsplash.jpg">
             </div>
-            <div class="col2">
+            <div class="col-12 col-md-6 col2">
                 <div class="divider-head">
                      <h3 class="s4head">Reservation</h3>
                      <div class="divider"></div>
@@ -278,15 +280,15 @@
              <form action="">
                 <div class="table1">
                     <div class="tab-col-left">
-                        <input type="text" placeholder="Your Name">
+                        <input type="text" placeholder="Your Name" class="book">
                     </div>
                     <div class="tab-col-right">
-                        <input type="email" placeholder="Your Email">
+                        <input type="email" placeholder="Your Email" class="book">
                     </div>
                 </div>
                 <div class="table2">
                     <div class="tab-col-left">
-                        <input type="datetime" placeholder="Date & Time"></div>
+                        <input type="datetime" placeholder="Date & Time"class="book"></div>
                         <div class="tab-col-right">
                         <div class="select-people">
                         <p class="para-4">Number of People</p>
@@ -299,7 +301,7 @@
                     </div> 
                 </div>
                 <div class="table3">
-                    <input type="textarea"placeholder="Special Request" >
+                    <input type="textarea"placeholder="Special Request" class="book">
                 </div>
                     <button type="submit" class="primary-btn1">Book Now</button>
                 </form>
@@ -316,12 +318,12 @@
                 </div>
                 <h2>Our Healthcare Professionals</h2>
                 </div> 
-                <div class="s5row">
-                    <div class="s5col">
+                <div class="row d-flex justify-content-between s5row">
+                    <div class="col-12 col-md-2 mt-2 offset-0 s5col">
                         <img src="assets/images/pexels-tima-miroshnichenko-5452201-modified.png" alt="pexels-tima-miroshnichenko-5452201-modified.png">
-                        <h2 class="heading-5">Full Name</h2>
+                        <h2 class="heading-5">Eira Nadir</h2>
                         <p class="text-5">
-                            Designation
+                            Doctor
                         </p>
                         <div class="s5Icon">
                             <i class="fa-brands fa-facebook-f"></i>
@@ -329,11 +331,11 @@
                             <i class="fa-brands fa-instagram"></i>
                         </div>
                     </div>
-                    <div class="s5col">
+                    <div class="col-12 col-md-2 mt-2 offset-0 s5col">
                         <img src="assets/images/austin-distel-7bMdiIqz_J4-unsplash-modified.png" alt="austin-distel-7bMdiIqz_J4-unsplash-modified.png">
-                        <h2 class="heading-5">Full Name</h2>
+                        <h2 class="heading-5">Zayan Azlan</h2>
                         <p class="text-5">
-                            Designation
+                            Doctor
                         </p>
                         <div class="s5Icon">
                             <i class="fa-brands fa-facebook-f"></i>
@@ -341,11 +343,11 @@
                             <i class="fa-brands fa-instagram"></i>
                         </div>
                     </div>
-                    <div class="s5col">
+                    <div class="col-12 col-md-2 mt-2 offset-0 s5col">
                         <img src="assets/images/pexels-antoni-shkraba-5215024-modified.png" alt="pexels-antoni-shkraba-5215024-modified.png">
-                        <h2 class="heading-5">Full Name</h2>
+                        <h2 class="heading-5">Aliyah Sanjar</h2>
                         <p class="text-5">
-                            Designation
+                            Doctor
                         </p>
                         <div class="s5Icon">
                             <i class="fa-brands fa-facebook-f"></i>
@@ -353,11 +355,11 @@
                             <i class="fa-brands fa-instagram"></i>
                         </div>
                     </div>
-                    <div class="s5col">
+                    <div class="col-12 col-md-2 mt-2 offset-0 s5col">
                         <img src="assets/images/sander-sammy-38Un6Oi5beE-unsplash-modified.png" alt="sander-sammy-38Un6Oi5beE-unsplash-modified.png">
-                        <h2 class="heading-5">Full Name</h2>
+                        <h2 class="heading-5">Danial Afzal</h2>
                         <p class="text-5">
-                            Designation
+                            Surgeon
                         </p>
                         <div class="s5Icon">
                             <i class="fa-brands fa-facebook-f"></i>
@@ -377,9 +379,9 @@
                 </div>
                 <h2>Our Clients Say!!!</h2>
             </div> 
-            <div class="s6row container">
+            <div class="row d-flex justify-content-between s6row container">
                     
-                <div class="s6col">
+                <div class="col-12 col-md-3 mt-2 offset-0 s6col">
                     <i class="fa-solid fa-quote-left"></i>
                     <p class="para-6"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ipsum optio vero praesentium id ab mollitia error ea necessitatibus perferendis.
                     </p>
@@ -388,16 +390,14 @@
                             <img src="assets/images/yilmaz-akin-FPKtCl74Hfs-unsplash-modified.png" alt="yilmaz-akin-FPKtCl74Hfs-unsplash-modified.png">
                         </div>
                         <div class="client-des">
-                            <h2 class="heading-6">Client Name</h2>
+                            <h2 class="heading-6">Afia Khusbu</h2>
                         <p class="text-6">
                            Profession
                         </p>
                         </div>
-                    </div>
-                    
-                    
+                    </div>  
                 </div>
-                <div class="s6col">
+                <div class="col-12 col-md-3 mt-2 offset-0 s6col">
                     <i class="fa-solid fa-quote-left"></i>
                     <p class="para-6"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ipsum optio vero praesentium id ab mollitia error ea necessitatibus perferendis.
                     </p>
@@ -406,16 +406,14 @@
                             <img src="assets/images/vince-fleming-j3lf-Jn6deo-unsplash-modified.png" alt="vince-fleming-j3lf-Jn6deo-unsplash-modified.png">
                         </div>
                         <div class="client-des">
-                            <h2 class="heading-6">Client Name</h2>
+                            <h2 class="heading-6">Junaid Khan</h2>
                         <p class="text-6">
                            Profession
                         </p>
                         </div>
-                    </div>
-                    
-                    
+                    </div> 
                 </div>
-                <div class="s6col">
+                <div class="col-12 col-md-3 mt-2 offset-0 s6col">
                     <i class="fa-solid fa-quote-left"></i>
                     <p class="para-6"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ipsum optio vero praesentium id ab mollitia error ea necessitatibus perferendis.
                     </p>
@@ -424,7 +422,7 @@
                             <img src="assets/images/ali-morshedlou-WMD64tMfc4k-unsplash-modified.png" alt="ali-morshedlou-WMD64tMfc4k-unsplash-modified.png">
                         </div>
                         <div class="client-des">
-                            <h2 class="heading-6">Client Name</h2>
+                            <h2 class="heading-6">Jaffer Rahman</h2>
                         <p class="text-6">
                            Profession
                         </p>
@@ -433,11 +431,9 @@
                 </div>
                 </div>
         </section>
-        <!-- End Sec6 -->
-        
-       
-    </main>
-    <!--END Main-->
+        <!-- End Sec6 -->  
+</main>
+<!--END Main-->
    
 
 

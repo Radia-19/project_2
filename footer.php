@@ -1,7 +1,7 @@
  <footer>
-        <div class="footer-row container">
+        <div class="row footer-row container">
                 
-            <div class="footer-col">
+            <div class="col-12 col-md-2 offset-md-0 footer-col">
                 <div class="divider-head">
                     <h3 class="s4head">Company</h3>
                     <div class="divider"></div>
@@ -16,7 +16,7 @@
                    </ul>
                 
             </div>
-            <div class="footer-col">
+            <div class="col-12 col-md-2 offset-md-0 footer-col">
                 <div class="divider-head">
                     <h3 class="s4head">Contact</h3>
                     <div class="divider"></div>
@@ -34,7 +34,7 @@
                    </ul>
                 
             </div>
-            <div class="footer-col">
+            <div class="col-12 col-md-2 offset-md-0 footer-col">
                 <div class="divider-head">
                     <h3 class="s4head">Opening</h3>
                     <div class="divider"></div>
@@ -48,7 +48,7 @@
                    </ul>
                 
             </div>
-            <div class="footer-col">
+            <div class="col-12 col-md-2 offset-md-0 footer-col">
                 <div class="divider-head">
                     <h3 class="s4head">Newsletter</h3>
                     <div class="divider"></div>
@@ -56,16 +56,16 @@
                   <p>dolor sit amet, consectetur adipisicing <br> elit corrupti culpa. </p>
                   <div class="letter">
                     
-                        <input type="email" placeholder="Your E-mail">
-                        <button type="submit" class="letter-btn">Register</button> 
+                    <input type="email" placeholder="Your E-mail" class="footin">
+                    <button type="submit" class="letter-btn">Register</button> 
                     
                   </div>
             </div>
         </div>
-        <div class="footer-row2">
-            <div class="foot-col1">
+        <div class="row footer-row2">
+            <div class="col-12 col-md-5 offset-md-0 foot-col1">
                 <p class="para-7">&copy Medicare | Best Health Check-up Service | All Right Reserved. </p></div>
-            <div class="foot-col2">
+            <div class="col-12 col-md-5 offset-md-0 foot-col2">
                 <nav class="foot-menu">
                   <ul>
                     <li> <a href="#">Home</a>

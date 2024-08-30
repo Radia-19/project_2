@@ -27,12 +27,9 @@
                         $user->register($_POST['username'],$_POST['email'],md5($_POST['password']),md5($_POST['cpassword']));
 
                         echo "<p class='alert alert-success'>Register Sucessfully!</p>";
-                        }
-                   
+                        } 
                 } 
-
-
-            ?> 
+             ?> 
           		<form name="f2" action="" onsubmit = "return validation()" method="POST">
 
                    

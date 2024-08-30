@@ -114,14 +114,13 @@ button{
 .sec1{
     padding: 100px 100px 100px;
 }
-.s1row {
+/*.s1row {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     box-sizing: border-box;
-}
+}*/
 .s1col {
-    flex-basis: 23%;
     padding: 20px 30px;
     background-color: white;
     font-size: 15px;
@@ -164,16 +163,16 @@ button{
 .sec2{
     padding: 10px 100px 100px 100px;
 }
-.s2row{
+/*.s2row{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-}
+}*/
 .s2left{
-    flex-basis: 48%;
+/*    flex-basis: 48%;*/
 }
 .s2right{
-    flex-basis: 48%;
+/*    flex-basis: 48%;*/
     margin-top: 70px;
 }
 .s2left img{
@@ -186,11 +185,11 @@ button{
     align-items: end;
 }
 .img1{
-    width: 100% !important;
+    width: 100% ;
     flex-basis: 48%;
 }
 .img2{
-    width: 70% !important;
+    width: 70% ;
     flex-basis: 48%;
     padding-top: 60px;
     padding-right: 60px;
@@ -203,14 +202,14 @@ button{
     padding-top: 20px;
 }
 .img3{
-    width: 70% !important;
+    width: 70% ;
     flex-basis: 48%;
     text-align: right;
     padding-bottom: 60px;
     padding-left: 60px;
 }
 .img4{
-    width: 100% !important;
+    width: 100% ;
     flex-basis: 48%;
 }
 .divider-head{
@@ -257,19 +256,21 @@ button{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    height: 50%;
 }
 .years-right{
     flex-basis: 50%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    height: 50%;
 }
 .num{
     flex-basis: 30%;
     color: #3498DB;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 700;
-    padding-left: 15px;
+    padding-left: 10px;
     border-left: 8px solid#3498DB;
 }
 .experience{
@@ -285,9 +286,9 @@ button{
 .num2{
     flex-basis: 30%;
     color: #3498DB;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 700;
-    padding-left: 15px;
+    padding-left: 10px;
     border-left: 8px solid#3498DB;
 }
 .popular{
@@ -341,11 +342,9 @@ button{
     width: 500px;
     margin: auto;
     border-bottom: 1px solid grey;
+    padding-left: 30px;
 }
 .s3col{
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-between;
    border-bottom:1px solid #273746;
 }
 .s3icon{
@@ -354,7 +353,7 @@ button{
     color: #273746;
 }
 .s3para{
-  padding-left: 10px;
+/*  padding-left: 10px;*/
 }
 .s3para p{
     padding-top: 5px;
@@ -499,7 +498,7 @@ select{
     border: none;
     color: rgb(73, 73, 73);
 }
-input{
+.book{
     padding: 15px 5px 30px;
     border: none;
     align-items: left;
@@ -507,7 +506,7 @@ input{
     outline: 0;
     width: 100%;
 }
-.input:focus {
+.book:focus {
     color: #666565;
     background-color: #fff;
     border-color: #FEA116;
@@ -560,14 +559,14 @@ input{
     padding: 8px 0px; 
 }
 .s5row {
-    display: flex;
+   /* display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-between;*/
     box-sizing: border-box;
     margin-top: 30px;
 }
 .s5col {
-    flex-basis: 23%;
+/*    flex-basis: 23%;*/
     padding: 20px 30px;
     background-color: white;
     font-size: 15px;
@@ -655,12 +654,11 @@ input{
     padding: 8px 0px; 
 }
 .s6row {
-    display: flex;
+    /*display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-between;*/
 }
 .s6col {
-    flex-basis: 30%;
     padding: 20px 30px;
     background-color: white;
     font-size: 15px;
@@ -779,7 +777,7 @@ footer{
     font-size: 16px;
     font-weight: 400;
 }
-.footer-col input{
+.footin{
     border: 2px #FEA116;
 }
 .letter{
@@ -787,15 +785,15 @@ footer{
     display: inline-block;
     position: relative;
  }
- .letter input{
-     width: 100% !important;
+.footin{
+     width: 100% ;
      border: 1px solid #FEA116;
      padding: 20px;
  }
- input:focus {
+.footin:focus {
      outline: none;
    }
- .letter-btn{
+.letter-btn{
      width: 35%;
      position: absolute;
      font-family: 'Nunito', sans-serif;

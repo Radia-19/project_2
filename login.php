@@ -2,12 +2,11 @@
 <?php include 'navbar.php'?>
 <?php include 'core/User.php'?>
 
+
 <!-- Custom CSS -->
 <link rel="stylesheet" href="assets/css/login.css">
                
-
-<main>
-          <?php
+<?php
                 if(isset($_POST['submit'])){
                     $user = new User;
                     $checkOneUser = $user->checkOneUser($_POST['username'],$_POST['password'],$_POST['role']);
@@ -16,44 +15,58 @@
                         
                         $getUserId = $checkOneUser[0]['id'];
                         $getUsername = $checkOneUser[0]['username'];
-                        $getRole = $checkOneUser[0]['role'];
-                        //SESSION
-                        session_start();
+                        $getRole = $checkOneUser[0]['role'];    
+                       
+                        if(!isset($_SESSION)) 
+                        { 
+                            session_start(); 
+                         
+                        }   
                         $_SESSION['user_id'] = $getUserId;
                         $_SESSION['username'] = $getUsername;
                         $_SESSION['role'] = $getRole;
-
-                        header("location:index.php");
                         echo "<p class='alert alert-success'>Logged in Successfully!</p>";
-                        }else{
-                        //header("location:login.php");
-                        echo "<p class='alert alert-danger mt-2'>Credential Dose Not Match!</p>";
-                        }
-                    }
-          ?>
-         <?php
-                if(isset($_POST['submit'])){
-                    $user = new User;
-                    $checkOneUser = $user->checkOneUser($_POST['username'],$_POST['password'],$_POST['role']);
-
-                        if($role == 1){ 
-                            //$getRole = $checkOneUser[0]['role'];
-
-                            session_start();
-                            $_SESSION['role'] = $role;
-                            //$_SESSION['message'] = "Welcome to dashboard";
-                            echo "<p class='alert alert-success'>Welcome to dashboard!</p>";
-                            header("location:index.php");
+                        header("location:index.php");
+                        
+                            if($getRole == "user"){
+                               
+                                $_SESSION['role'] = $getRole;
+                                echo "<p class='alert alert-success'>Logged in Successfully!</p>";
+                                header('location:index.php');           
+                                }else if($getRole == "admin"){
+                                    
+                                     $_SESSION['role'] = $getRole;
+                                     echo "<p class='alert alert-success'>Welcome to dashboard!</p>";
+                                     header('Location:admin/index.php');
+                                     
+                                    }else{
+                                        $_SESSION['message'] = "You Are Not Authorized!";
+                                        header('location:login.php');
+                                        }
+                        
                         }
                         else{
-                            //echo "<p class='alert alert-success'>Logged in Successfully!</p>";
-                            $_SESSION['message'] = "You Are Not Authorized!";
-                            header("location:admin/index.php");
-                        }
-
-                }    
+                        echo "<p class='alert alert-danger mt-2'>Credential Dose Not Match!</p>";
+                        header("location:login.php");
+                    }
+                      
+                  }
+                    
         ?>
-                  
+         
+        <?php  
+
+                //if(isset($_POST['submit'])){
+                    //$admin = new User;
+                    //$admin->addAdmin($_POST['username'],$_POST['password'],$_POST['role']);
+
+                    
+                    //}  
+
+        ?>
+           
+<main>
+               
                 
     <section class="sec1 mb-5">
             <div class="heading text-center">
