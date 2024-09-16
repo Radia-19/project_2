@@ -6,6 +6,13 @@
 /* Laptop View */
 @media (max-width: 992px) {
 
+.carousel-inner h1{
+	font-size: 40px;
+}
+.carousel-inner h1{
+	font-size: 20px;
+}
+/*End Navbar*/
 .logo img {
     width: 50px;
 }
@@ -58,7 +65,8 @@
 	height: 200px;
 }
 .s5col h2 {
-	font-size: 20px;
+	font-size: 16px;
+	ine-height: inherit;
 }
 /* End sec5 */
 .sec6{
@@ -70,6 +78,7 @@
 }
 .footin{
 	font-size: 15px;
+	padding: 28px;
 }
 .letter-btn{
     width: 50%;
@@ -89,8 +98,9 @@
 	min-height: 500px;
 } 
 /* End Banner */
-.s1col {
-	flex-basis:23% ;
+.s1col{
+	flex-basis: 48%;
+	margin-bottom: 10px;
 }
 .s1col i{
 	font-size: 30px;
@@ -100,6 +110,9 @@
     line-height: 15px;
 }
 /* END Sec1 */
+.s2row{
+	display: block;
+}
 .s2right h2{
 	font-size: 20px;
 }
@@ -122,8 +135,13 @@
 .sec5 h2{
 	font-size: 20px;
 }
+.s5col{
+	flex-basis: 48%;
+	margin-bottom: 10px;
+}
 .s5col img {
-	height: 150px;
+	height: 170px;
+	width: 70%;
 }
 .s5col h2 {
 	font-size: 15px;
@@ -168,6 +186,10 @@
 	min-height: 500px;
 }
 /* End Banner */
+.s1col{
+	flex-basis: 48%;
+	margin-bottom: 10px;
+}
 .s1col i{
 	font-size: 30px;
 }
@@ -182,6 +204,9 @@
 /*.img2 .img3 {
 	width: 30%;
 }*/
+.s2row{
+	display: block;
+}
 .s2right h2{
 	font-size: 26px;
 }
@@ -208,7 +233,10 @@
     display: block;
     width: 100%;
 }
-.col1 .col2{
+.col1{
+	width: 100%;
+}
+.col2{
 	width: 100%;
 }
 .col2 h2{
@@ -217,8 +245,11 @@
 
 /* End sec4 */
 .sec5 h2{
-	font-size: 30px;
+	font-size: 14px;
 }
+.s5col {
+    flex-basis: 48%;
+}    
 .s5col img{
 	width: 70%;
 }
@@ -230,6 +261,13 @@
 	font-size: 20px;
 }
 /* End sec6 */
-
+.sec0 {
+    padding: 0px 70px 100px 50px;
+}
+.s0row{
+	width: 400px;
+}
+.s0icon {
+    font-size: 22px;
 
 }

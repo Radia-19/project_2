@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+/*    font-family: 'Playfair Display', serif;*/
+}
+p,
+a,
+li,
+input,
+button {
+/*    font-family: 'Montserrat', sans-serif;*/
+}
+
+.s1head{
+    text-align: center;
+} 
+.divider-head1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divider1{
+    width: 70px;
+    height: 2px;
+    background-color:#3498DB;
+    margin-left: 15px;
+}
+.heading-1{
+    margin-left: 15px;
+    font-family: 'Pacifico', cursive;
+    font-size: 23px;
+    font-weight: 400;
+    color: #3498DB;
+}
+.heading-2{
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+    padding: 10px 0px; 
+    margin-bottom: 30px;
+}
+.disease{
+    padding: 0px 100px 0px 50px;
+}
+.symptom{
+    padding: 0px 100px 100px 50px;
+}
+.sym{
+    padding: 20px 30px;
+    background-color: white;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+/*    transition: background-color 1s;*/
+}
+/*.dis:hover{
+    background-color:  #3498DB;
+    color: white;
+}*/
+.symIcon{
+/*    color:  #3498DB;*/
+    color: grey;
+    font-size: 50px;
+    padding: 20px 20px 20px 0px;
+/*    align-items: center;*/
+}
+.sym h2 {
+/*    font-family: 'Pacifico', cursive;*/
+    font-size: 23px;
+    font-weight: 400;
+    color: #3498DB;
+}
+}
+.sym p{
+/*    color: grey;*/
+    padding: 10px 0px;
+}
+.symIcon :hover{
+    color: white;
+}
+.sym h2: hover{
+    color: white;
+}
+.sym p: hover{
+    color: white;
+}
+/*.sym i{
+    color: white;
+    font-size: 15px;
+}*/
+.text-1:hover{
+    color: white;
+}
+/*legend{
+    font-size: 15px!important;
+}*/
+.in1{
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+    margin-top: 3px;
+}

@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+/*    font-family: 'Playfair Display', serif;*/
+}
+p,
+a,
+li,
+input,
+button {
+/*    font-family: 'Montserrat', sans-serif;*/
+}
+
+.s1head{
+    text-align: center;
+} 
+.divider-head1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divider1{
+    width: 70px;
+    height: 2px;
+    background-color:#3498DB;
+    margin-left: 15px;
+}
+.heading-1{
+    margin-left: 15px;
+    font-family: 'Pacifico', cursive;
+    font-size: 23px;
+    font-weight: 400;
+    color: #3498DB;
+}
+.heading-2{
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+    padding: 10px 0px; 
+    margin-bottom: 30px;
+}
+/*.department{
+    padding: 0px 100px 100px 50px;
+}*/
+.depName{
+    color: rgb(68, 65, 65);
+    text-transform: capitalize;
+    list-style: none;
+}
+.depName a{
+    display: block;
+    padding: 8px 16px;
+    clear: both;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #656464;
+    white-space: nowrap;
+    border-bottom: 1px solid #f1f2f2;
+    font-size: 13px;
+    background: url(../images/bread-crumb-arrow.png) 0 5px no-repeat;
+    background-position: 8px 16px;
+}

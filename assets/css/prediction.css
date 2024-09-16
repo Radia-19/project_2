@@ -109,27 +109,43 @@ button {
     margin-right: 5px;
     margin-top: 3px;
 }
+/*END symptoms*/
 .labtest{
 /*    padding: 100px;*/
 }
-.labtest img {
+/*.labtest img {
      width: 100%;    
-}
+}*/
 .lab-heading{
      font-size: 40px;
     color: black;
 }
-.lab-heading li {
-    color: black;
+/*.labtest li {
     font-size: 20px;
     margin-right: 10px;
     padding-top: 20px;
-}
-.lab-heading i{
-    color: black;
+    color: rgb(68, 65, 65);
+    text-transform: capitalize;
+}*/
+.testName {
     font-size: 20px;
-    margin-right: 10px;
+    color: rgb(68, 65, 65);
+    text-transform: capitalize;
+    list-style: none;
 }
-.lab{
-    padding-left: 100px;
+.testName a{
+    display: block;
+    padding: 8px 16px;
+    clear: both;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #656464;
+    white-space: nowrap;
+    border-bottom: 1px solid #f1f2f2;
+    font-size: 13px;
+    background: url(../images/bread-crumb-arrow.png) 0 5px no-repeat;
+    background-position: 8px 16px;
+}
+.btn1{
+    width: 500px;
 }

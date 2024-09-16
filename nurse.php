@@ -16,10 +16,10 @@
        
             <div class="row my-5">
                     <div class="col-3 offset-1 doc">
-                        <img src="assets/images/pexels-tima-miroshnichenko-5452201-modified.png" alt="pexels-tima-miroshnichenko-5452201-modified.png">
-                        <h2 class="heading-5">Full Name</h2>
+                        <img src="assets/images/image1-modified.png" alt="image1-modified.png">
+                        <h2 class="heading-5">Nusrat Tabassum</h2>
                         <p class="text-5">
-                            Designation
+                            Certified Nurse
                         </p>
                         <div class="docIcon">
                             <i class="fa-brands fa-facebook-f"></i>
@@ -28,10 +28,10 @@
                         </div>
                     </div>
                     <div class="col-3 offset-1 doc">
-                        <img src="assets/images/austin-distel-7bMdiIqz_J4-unsplash-modified.png" alt="austin-distel-7bMdiIqz_J4-unsplash-modified.png">
-                        <h2 class="heading-5">Full Name</h2>
+                        <img src="assets/images/images (6)-modified.png" alt="images (6)-modified.png">
+                        <h2 class="heading-5">Anowar Islam</h2>
                         <p class="text-5">
-                            Designation
+                            Senior Nurse
                         </p>
                         <div class="docIcon">
                             <i class="fa-brands fa-facebook-f"></i>
@@ -40,10 +40,10 @@
                         </div>
                     </div>
                     <div class="col-3 offset-1 doc">
-                        <img src="assets/images/pexels-antoni-shkraba-5215024-modified.png" alt="pexels-antoni-shkraba-5215024-modified.png">
-                        <h2 class="heading-5">Full Name</h2>
+                        <img src="assets/images/istockphoto-962485000-612x612-modified.png" alt="istockphoto-962485000-612x612-modified.png">
+                        <h2 class="heading-5">Susmita Roy</h2>
                         <p class="text-5">
-                            Designation
+                            Junior Nurse
                         </p>
                         <div class="docIcon">
                             <i class="fa-brands fa-facebook-f"></i>
@@ -53,60 +53,6 @@
                     </div>
                    
             </div>
-             <nav aria-label="Page navigation example">
-              <ul class="pagination justify-content-end">
-                <li class="page-item disabled">
-                  <a class="page-link">Previous</a>
-                </li>
-                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                <li class="page-item">
-                  <a class="page-link" href="#">Next</a>
-                </li>
-              </ul>
-            </nav>
-            <div class="row my-5">
-                    <div class="col-3 offset-1 doc">
-                        <img src="assets/images/pexels-tima-miroshnichenko-5452201-modified.png" alt="pexels-tima-miroshnichenko-5452201-modified.png">
-                        <h2 class="heading-5">Full Name</h2>
-                        <p class="text-5">
-                            Designation
-                        </p>
-                        <div class="docIcon">
-                            <i class="fa-brands fa-facebook-f"></i>
-                            <i class="fa-brands fa-twitter"></i>
-                            <i class="fa-brands fa-instagram"></i>
-                        </div>
-                    </div>
-                    <div class="col-3 offset-1 doc">
-                        <img src="assets/images/austin-distel-7bMdiIqz_J4-unsplash-modified.png" alt="austin-distel-7bMdiIqz_J4-unsplash-modified.png">
-                        <h2 class="heading-5">Full Name</h2>
-                        <p class="text-5">
-                            Designation
-                        </p>
-                        <div class="docIcon">
-                            <i class="fa-brands fa-facebook-f"></i>
-                            <i class="fa-brands fa-twitter"></i>
-                            <i class="fa-brands fa-instagram"></i>
-                        </div>
-                    </div>
-                    <div class="col-3 offset-1 doc">
-                        <img src="assets/images/pexels-antoni-shkraba-5215024-modified.png" alt="pexels-antoni-shkraba-5215024-modified.png">
-                        <h2 class="heading-5">Full Name</h2>
-                        <p class="text-5">
-                            Designation
-                        </p>
-                        <div class="docIcon">
-                            <i class="fa-brands fa-facebook-f"></i>
-                            <i class="fa-brands fa-twitter"></i>
-                            <i class="fa-brands fa-instagram"></i>
-                        </div>
-                    </div>
-                   
-            </div>
-
-            
             <nav aria-label="Page navigation example">
               <ul class="pagination justify-content-end">
                 <li class="page-item disabled">
@@ -134,12 +80,16 @@
             </div>
             <div class="row my-5">
                     <div class="col-4 offset-1 check">
+                       <a href="#">
                        <i class="fa-solid fa-mobile-screen"></i> 
                        <p >Audio survice</p>
+                       </a>
                     </div>
                     <div class="col-4 offset-2 check">
+                     <a href="#">
                      <i class="fa-solid fa-video"></i>
-                     <p>Audio survice</p>
+                     <p>Video survice</p>
+                     </a>
                     </div>
             </div>
 </section>
@@ -155,7 +105,7 @@
             </div>
             <div class="row my-5">
                  <div class="col-3 offset-1 doc sur">
-                        <h2 class="mt-2">Hospital Survices</h2>
+                        <h2 class="mt-4">Hospital Survices</h2>
                         <p class="mt-2">
                             Hotline:01234-567890
                         </p>
@@ -175,11 +125,11 @@
                     </div>
                     <div class="col-3 offset-1 doc sur">
                         
-                        <h2 class="mt-2">Diagnostic Survices</h2>
+                        <h2 class="mt-4">Diagnostic Survices</h2>
                         <p class="text-5">
-                            Designation
+                            Hotline:01234-567890
                         </p>
-                        <ul class="text-star pb-2">
+                        <ul class="text-start pb-2">
                             <li>Radiology & Imaging Service</li>
                             <li>Pathology Services</li>
                             <li>MRI</li>
@@ -196,9 +146,9 @@
                         </div>
                     </div>
                        <div class="col-3 offset-1 doc sur">
-                        <h2 class="mt-2">Health Checkup Package</h2>
+                        <h2 class="mt-4">Health Checkup Package</h2>
                         <p class="text-5">
-                            Designation
+                            Hotline:01234-567890
                         </p>
                         <ul class="text-start pb-2">
                             <li>Home Survice</li>

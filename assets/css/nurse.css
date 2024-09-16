@@ -96,6 +96,7 @@
 .check{
     padding: 20px 30px;
     background-color: white;
+    color: #3498DB;
     font-size: 15px;
     font-weight: 500;
     line-height: 20px;
@@ -105,12 +106,19 @@
     box-sizing: border-box;
     position: relative;
 }
+.check:hover{
+    background-color:  #3498DB;
+    color: white;
+}
 /*End Checkup*/
 .survice{
     padding: 50px 100px 100px 50px;
 }
 .sur:hover{
     background-color:  #3498DB;
+    color: white;
+}
+.sur:hover h2{
     color: white;
 }
 .sur:hover i{

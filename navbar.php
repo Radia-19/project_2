@@ -21,6 +21,9 @@ if(!isset($_SESSION['username'])){
                     <a class="nav-link"  href="index.php">Home</a>
                   </li>
                   <li class="nav-item">
+                    <a class="nav-link"  href="department.php">Departments</a>
+                  </li>
+                  <li class="nav-item">
                     <a class="nav-link" href="about.php">About us</a>
                   </li>
                   <li class="nav-item dropdown">
@@ -37,7 +40,7 @@ if(!isset($_SESSION['username'])){
                   </li>
 
                   <?php if(isset($_SESSION['username'])): ?>  
-                    <a class="nav-link" href="prediction.php">Prediction</a>
+                    <a class="nav-link" href="prediction1.php">Prediction</a>
                     <a class="nav-link" href="logout.php">Logout (<?= $_SESSION['username'] ?>)</a>
                   <?php else: ?>
                     <li class="nav-item">
@@ -45,7 +48,6 @@ if(!isset($_SESSION['username'])){
                     <li class="nav-item">
                     <a class="nav-link reg" href="register.php"><img class="me-2" src="assets/images/person-fill.svg" alt="person-fill.svg">Register</a></li>
                   <?php endif; ?>
-
                 </ul>
               </div>
             </div>

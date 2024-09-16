@@ -1,12 +1,12 @@
+<?php ob_start();?>
 <?php include 'header.php'?>
 <?php include 'navbar.php'?>
 <?php include 'core/User.php'?>
 
 <!-- Custom CSS -->
 <link rel="stylesheet" href="assets/css/register.css">
-        
 
- <main>
+<main>
     <section class="sec1 mb-5">
          <div class="heading text-center">
             <a href="index.php"><img src="assets/images/Favicon.png" alt="Favicon.png"></a>
@@ -16,21 +16,23 @@
           <div class="container">
           	<div class="row">
           	 <div class="col-8 offset-2">
-             <?php
-                if(isset($_POST['submit'])){
-                    $user = new User;
-                    $userCount = $user->checkPreviousUser($_POST['username'],$_POST['email']);
+<?php
+    if(isset($_POST['submit'])){
+            $user = new User;
+            $userCount = $user->checkPreviousUser($_POST['username'],$_POST['email']);
                    
-                    if(count($userCount) > 0){
-                        echo "<p class='alert alert-warning'>Username/Email Exits</p>"; 
-                    }else{
-                        $user->register($_POST['username'],$_POST['email'],md5($_POST['password']),md5($_POST['cpassword']));
-
-                        echo "<p class='alert alert-success'>Register Sucessfully!</p>";
-                        } 
-                } 
-             ?> 
-          		<form name="f2" action="" onsubmit = "return validation()" method="POST">
+        if(count($userCount) > 0){
+            echo "<p class='alert alert-warning'>Username/Email Exits!!!</p>"; 
+        // if (!empty($_POST['role'])){
+        //         $role = ["admin","user"];      
+        //        }       
+        }else{
+            $user->register($_POST['username'],$_POST['email'],md5($_POST['password']),md5($_POST['cpassword']));
+            echo "<p class='alert alert-success'>Register Sucessfully!</p>";
+            } 
+    } 
+?> 
+          		<form name="f2" action="" onsubmit ="return validation()" method="POST">
 
                    
                     <input class="form-control form-control-lg" type="text" name="username" id="username" autocomplete="off" required>
@@ -50,37 +52,43 @@
 
                 </div>  
                 <div class="form-check d-flex justify-content-center mb-5">
-                  <input class="form-check-input me-2 check" type="checkbox" name="check" value="" id="form2Example3cg">
+                  <input class="form-check-input me-2 check" type="checkbox" name="check" onclick="myFunction()" id="termscondition">
                   <label class="form-check-label" for="form2Example3g">I agree all statements in <a href="#" class="text-body"><u>Terms of service</u></a></label>
                 </div>
 
                	<div class="d-flex justify-content-center mb-4">
                   <button  type="submit" name="submit" class="btn btn-primary btn-block btn-lg border border-0 rounded-2 gradient-custom-4 regBtn">Register</button>
                 </div>
-                    
-                </form>
 
-          		</div>
+                </form>
+          	  </div>
           	</div>
           </div>
            
         </section>
-    </main>
+</main>
 
 
 <?php include 'footer.php'?>
   <script>  
-        function validation()  
-        {   
-        var password=document.f2.password.value;  
-        var cpassword=document.f2.cpassword.value;  
-        
-        if(password==cpassword){  
-        return true;  
-        }  
-        else{  
-        alert("password must be same!");  
-        return false;  
-        } 
+        function validation(){   
+            var password=document.f2.password.value;  
+            var cpassword=document.f2.cpassword.value; 
+            if(password==cpassword){  
+            return true;  
+            }  
+            else{  
+            alert("password must be same!");  
+            return false;  
+            }
+        }
+        function myFunction() {
+            var checkBox = document.getElementById("termscondition");
+            if(checkBox.checked == True){
+                
+            }else{
+                alert("Please agree with our terms & condition.");
+                return false;
+            }
         } 
   </script>
