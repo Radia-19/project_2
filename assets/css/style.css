@@ -306,10 +306,10 @@ button{
     text-transform: uppercase;
 }
 /* END sec2 */
+
 .sec0{
     padding: 0px 100px 100px 100px;
 }
-
 .s0head{
     text-align: center;
 } 
@@ -353,10 +353,14 @@ button{
    justify-content: space-between;
    border-bottom:1px solid #273746;
 }
+
 .s0icon{
-    font-size: 35px;
+    font-size: 25px;
     padding-top: 10px;
     color: #273746;
+}
+.p1{
+    color: gray;
 }
 .s0para{
 /*  padding-left: 10px;*/

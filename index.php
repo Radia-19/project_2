@@ -125,7 +125,7 @@
                 <div class="col-left">
                     <div class="menu-img"><img src="assets/images/towfiqu-barbhuiya-Yw9Vgr6i_-0-unsplash.jpg" alt="towfiqu-barbhuiya-Yw9Vgr6i_-0-unsplash.jp"></div>
                     <div class="menu3"> 
-                        <a href="cold.php"><h5>
+                        <a href="#"><h5>
                         <span class="text3">Cold & Cough</span> 
                         <span class="text-primary bangla">&#2547; ১০</span></h5>
                         <p class="para3">A cough is a common symptom of the cold, which can also cause other symptoms, such as:</p></a>
@@ -134,7 +134,7 @@
                 <div class="col-right">
                     <div class="menu-img"><img src="assets/images/myriam-zilles-KltoLK6Mk-g-unsplash.jpg" alt="myriam-zilles-KltoLK6Mk-g-unsplash.jpg"></div>
                         <div class="menu3">
-                            <a href="diabetes.php"><h5>
+                            <a href="#"><h5>
                             <span class="text3">Diabetes</span> 
                             <span class="text-primary">&#2547; ১০</span></h5>
                             <p class="para3">If you have any of the following diabetes symptoms, see your doctor about getting your blood sugar tested:</p></a>
@@ -145,7 +145,7 @@
                 <div class="col-left">
                     <div class="menu-img"><img src="assets/images/pexels-pixabay-208512.jpg" alt="pexels-pixabay-208512.jpg"></div>
                     <div class="menu3">
-                        <a href="allergies.php"><h5>
+                        <a href="#"><h5>
                         <span class="text3">Allergies</span> 
                         <span class="text-primary">&#2547; ১০</span></h5>
                         <p class="para3">Symptoms of an allergic reaction can include:</p></a>
@@ -165,7 +165,7 @@
                 <div class="col-left">
                     <div class="menu-img"><img src="assets/images/pexels-daniel-frank-287227.jpg" alt="pexels-daniel-frank-287227.jpg"></div>
                     <div class="menu3">
-                        <a href="hepatitis.php"><h5>
+                        <a href="#"><h5>
                         <span class="text3">Hepatitis</span> 
                         <span class="text-primary">&#2547; ১০</span></h5>
                         <p class="para3">The symptoms of types A, B, and C may include:</p></a>
@@ -174,7 +174,7 @@
                     <div class="col-right">
                     <div class="menu-img"><img src="assets/images/marcelo-leal-k7ll1hpdhFA-unsplash.jpg" alt="marcelo-leal-k7ll1hpdhFA-unsplash.jpg"></div>
                     <div class="menu3">
-                        <a href="influenza.php"><h5>
+                        <a href="#"><h5>
                         <span class="text3">Influenza</span> 
                         <span class="text-primary">&#2547; ১০</span></h5>
                         <p class="para3">People who are sick with Influenza often feel some of these symptoms:</p></a>
@@ -185,7 +185,7 @@
                 <div class="col-left">
                     <div class="menu-img"><img src="assets/images/louis-reed-pwcKF7L4-no-unsplash.jpg" alt="louis-reed-pwcKF7L4-no-unsplash.jpg"></div>
                     <div class="menu3">
-                        <a href="heart.php"><h5>
+                        <a href="#"><h5>
                         <span class="text3">Heart Disease</span> 
                         <span class="text-primary">&#2547; ১০</span></h5>
                         <p class="para3">Heart disease can cause a variety of symptoms, including:</p></a>
@@ -194,7 +194,7 @@
                     <div class="col-right">
                         <div class="menu-img"><img src="assets/images/national-cancer-institute-XknuBmnjbKg-unsplash.jpg" alt="national-cancer-institute-XknuBmnjbKg-unsplash.jpg"></div>
                         <div class="menu3">
-                            <a href="sinusitis.php"><h5>
+                            <a href="#"><h5>
                             <span class="text3">Bacterial sinusitis</span> 
                             <span class="text-primary">&#2547; ১০</span></h5>
                             <p class="para3">Bacterial sinusitis, also known as a sinus infection, is an inflammation of the tissues lining the sinuses. Symptoms include:</p></a>
@@ -273,40 +273,53 @@
                 <div class="divider0"></div>
             </div>
             <h2>Disease Prediction</h2>
-          </div>
+          </div>          
+                                
+              <ul class="nav nav-tabs nav-justified home-page-tab" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link text-start active d-flex align-items-start" id="editors-pick-tab"
+                            data-bs-toggle="tab" data-bs-target="#editors-pick" type="button" role="tab"
+                            aria-controls="editors-pick" aria-selected="true">
+                            <span
+                                class="fad d-md-inline-block fs-1 fs-sm-2 fs-lg-3 me-2 me-lg-3 home-page-tab-icon"></span>
+                            <div class="flex-1">
 
-          <div class="s0row">
-                <div class="s0col">
-                    <a href="#">
-                    <i class="fa-solid fa-stethoscope s0icon"></i>
-                    <div class="s0para ps-2">
-                    <p class="mb-0">Popular</p>
-                    <h5>Examinations</h5>
-                    </a>
-                    </div>
-                </div>
-                <div class="s0col">
-                    <a href="checkup.php"> 
-                    <i class="fa-solid fa-vials s0icon"></i>
-                    <div class="s0para ps-2">
-                    <p class="mb-0">Special</p>
-                    <h5>Check-ups</h5>
-                    </a>
-                    </div>
-                </div>
-                <div class="s0col">
-                    <a href="labtest.php">  
-                    <i class="fa-solid fa-bandage s0icon"></i>
-                    <div class="s0para ps-2">
-                    <p class="mb-0">General</p>
-                    <h5>Lab Tests</h5>
-                    </a>
-                    </div>
-                </div>
-          </div>
+                                <div class="fs--1 fs-sm-0 fs-lg-1 mb-0 fw-bold"><i class="fa-solid fa-stethoscope s0icon"></i> Popular <span
+                                        class="d-none d-md-inline-block"></span></div>
+                                <p class="mb-0 fs--2 fs-sm--1 nav-link-subtitle d-none d-md-block ps-4 ms-3 p1">Examination</p>
+                            </div>
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link text-start d-flex align-items-start" id="popular-freebies-tab" data-bs-toggle="tab"
+                            data-bs-target="#popular-freebies" type="button" role="tab" aria-controls="popular-freebies"
+                            aria-selected="false">
+                            <span class="fad d-md-inline-block fs-1 fs-sm-2 fs-lg-3 me-2 me-lg-3 home-page-tab-icon"></span>
+                            <div class="flex-1">
 
-          <div class="container">
-                    <div class="row justify-content-center mt-5 mb-5 ">
+                                <div class="fs--1 fs-sm-0 fs-lg-1 mb-0 fw-bold"><i class="fa-solid fa-vials s0icon"></i> Special <span
+                                        class="d-none d-md-inline-block"></span></div>
+                                <p class="mb-0 fs--2 fs-sm--1 nav-link-subtitle d-none d-md-block ps-4 ms-3 p1">Check-ups</p>
+                            </div>
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link text-start d-flex align-items-start" id="recent-releases-tab" data-bs-toggle="tab"
+                            data-bs-target="#recent-releases" type="button" role="tab" aria-controls="recent-releases"
+                            aria-selected="false">
+                            <span class="fad d-md-inline-block fs-1 fs-sm-2 fs-lg-3 me-2 me-lg-3 home-page-tab-icon"></span>
+                            <div class="flex-1">
+                                <div class="fs--1 fs-sm-0 fs-lg-1 mb-0 fw-bold"><span class="d-none d-md-inline-block"><i class="fa-solid fa-bandage s0icon"></i> General </span><span class="d-md-none"></span></div>
+                                <p class="mb-0 fs--2 fs-sm--1 nav-link-subtitle d-none d-md-block ps-4 ms-3 p1">Latest</p>
+                            </div>
+
+                        </button>
+                    </li>
+                </ul> 
+                 <div class="tab-content mb-4" id="myTabContent">
+                    <div class="tab-pane pt-4 pt-md-5 fade show active" id="editors-pick" role="tabpanel"
+                        aria-labelledby="editors-pick-tab">
+                        <div class="row justify-content-center mt-0 mb-5">
                                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
                                         <ul class="testName">
                                             <li class="dropdown">  
@@ -391,9 +404,196 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <button type="button" class="btn btn-light text-primary mt-5 btn1">Explore More <i class="bi bi-arrow-right"></i></button>    
-                      </div>
-          </div>
+                                    <button type="button" class="btn btn-primary mt-5 btn1">Explore More <i class="bi bi-arrow-right"></i></button>     
+                        </div>
+                        </div>
+                </div>
+                 <div class="tab-content mb-4" id="myTabContent">
+                    <div class="tab-pane pt-4 pt-md-5 fade show" id="popular-freebies" role="tabpanel"
+                        aria-labelledby="popular-freebies-tab">
+                        <div class="row justify-content-center mt-0 mb-5 ">
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                                        <ul class="testName">
+                                            <li class="dropdown">  
+                                                <a href="#">IMMUNOLOGY</a> 
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                                        <ul class="testName">
+                                            <li class="dropdown">  
+                                                <a href="#">BIOCHEMISTRY</a> 
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                                        <ul class="testName">
+                                            <li class="dropdown">  
+                                                <a href="#">HAEMATOLOGY</a> 
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                                        <ul class="testName">
+                                            <li class="dropdown">  
+                                                <a href="#">CLINICAL PATHOLOGY</a> 
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                                        <ul class="testName">
+                                            <li class="dropdown">  
+                                                <a href="#">SEROLOGY</a> 
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                                        <ul class="testName">
+                                            <li class="dropdown">  
+                                                <a href="#">MICROBIOLOGY</a> 
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                                        <ul class="testName">
+                                            <li class="dropdown">  
+                                                <a href="#">HISTOPATHOLOGY</a> 
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                                        <ul class="testName">
+                                            <li class="dropdown">  
+                                                <a href="#">CYTOPATHOLOGY</a> 
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                                        <ul class="testName">
+                                            <li class="dropdown">  
+                                                <a href="#">CLINICAL PATHOLOGY</a> 
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                                        <ul class="testName">
+                                            <li class="dropdown">  
+                                                <a href="#">PCR LAB</a> 
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                                        <ul class="testName">
+                                            <li class="dropdown">  
+                                                <a href="#">FlOWCYTOMETRY</a> 
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                                        <ul class="testName">
+                                            <li class="dropdown">  
+                                                <a href="#">IMMUNOHISTOCHEMISTRYPY</a> 
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <button type="button" class="btn btn-primary mt-5 btn1">Explore More <i class="bi bi-arrow-right"></i></button>  
+                                 </div>
+                            </div>
+                        </div>
+                </div>
+                 <div class="tab-content mb-4" id="myTabContent">
+                    <div class="tab-pane pt-4 pt-md-5 fade show" id="recent-releases" role="tabpanel"
+                        aria-labelledby="recent-releases-tab">
+                        <div class="row justify-content-center mt-0 mb-5">
+                                   <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                                        <ul class="testName">
+                                            <li class="dropdown">  
+                                                <a href="#">X-RAY</a> 
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                                        <ul class="testName">
+                                            <li class="dropdown">  
+                                                <a href="#">EEG</a> 
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                                        <ul class="testName">
+                                            <li class="dropdown">  
+                                                <a href="#">ETT</a> 
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                                        <ul class="testName">
+                                            <li class="dropdown">  
+                                                <a href="#">MAMMOGRAPHY</a> 
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                                        <ul class="testName">
+                                            <li class="dropdown">  
+                                                <a href="#">USG</a> 
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                                        <ul class="testName">
+                                            <li class="dropdown">  
+                                                <a href="#">MRI</a> 
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                                        <ul class="testName">
+                                            <li class="dropdown">  
+                                                <a href="#">ECHOCARDIOGRAM</a> 
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                                        <ul class="testName">
+                                            <li class="dropdown">  
+                                                <a href="#">COLONOSCOPY</a> 
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                                        <ul class="testName">
+                                            <li class="dropdown">  
+                                                <a href="#">HOLTER ECG</a> 
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                                        <ul class="testName">
+                                            <li class="dropdown">  
+                                                <a href="#">ENDOSCOPY</a> 
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                                        <ul class="testName">
+                                            <li class="dropdown">  
+                                                <a href="#">SPIROMETRY</a> 
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                                        <ul class="testName">
+                                            <li class="dropdown">  
+                                                <a href="#">FIBER OPTIC LARYNGOSCOPY</a> 
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <button type="button" class="btn btn-primary mt-5 btn1">Explore More <i class="bi bi-arrow-right"></i></button> 
+                                </div>
+                            </div> 
+                        </div>
+                </div>  
         </section>
         <!-- End sec0 -->
         <section class="sec4">
@@ -437,10 +637,13 @@
                     <textarea type="textarea" placeholder="Special Request" name="special_request" class="book3"></textarea>
                 </div>
                 <?php if(isset($_SESSION['username'])): ?>
-                <a href="booking.php"><button type="submit" name="submit" class="mt-4 primary-btn1">Get Appointment</button></a>
-                <?php else: ?>
-                <a href="login.php"><button type="submit" name="submit" class="mt-4 primary-btn1">Get Appointment</button></a>
-                <?php endif; ?>
+                    <a href="booking.php"><button type="button" name="button" class="mt-4 primary-btn1" >Get Appointment</button></a>
+                    <?php else: ?>
+                    <a href="login.php"><button type="button" name="button" class="mt-4 primary-btn1" >Get Appointment</button></a>
+                    <?php echo "Please login first";  ?>
+                    <?php endif; ?>
+                
+
             </form>
            </div>
           </div>    
@@ -503,7 +706,5 @@
          
 </main>
 <!--END Main-->
-   
--
 
 <?php include 'footer.php'?>

@@ -1,115 +1,173 @@
+<?php ob_start();?>
 <?php include 'header.php'?>
 <?php include 'loginCheck.php'?>
 <?php include 'navbar.php'?>
-<?php include 'core/Code.php'?>
 
 
 <!-- Custom CSS -->
 <link rel="stylesheet" href="assets/css/prediction.css">
 
-<section class="symptom mt-5">
-       
-            <div class="s1head">
-                    <div class="divider-head1">
-                        <div class="divider1"></div>
-                        <h3 class="heading-1 mt-4">Check-up List</h3>
-                        <div class="divider1"></div>
-                    </div>
-                    <h2 class="heading-2">Predict Your Disease Here</h2>
-                </div>
-         <div class="container">        
-            <div class="row justify-content-center">
-                <div class="col-md-12 mb-3 sym">
-                <div class="menu">
-                    <div class="menu-row">
-                        <div class="col-left">
-                            <div class="menu-img"><img src="assets/images/towfiqu-barbhuiya-Yw9Vgr6i_-0-unsplash.jpg" alt="towfiqu-barbhuiya-Yw9Vgr6i_-0-unsplash.jp"></div>
-                            <div class="menu3"> 
-                                <a href="cold.php"><h5>
-                                <span class="text3">Cold & Cough</span> 
-                                <span class="text-primary bangla">&#2547; ১০</span></h5>
-                                <p class="para3">A cough is a common symptom of the cold, which can also cause other symptoms, such as:</p></a>
-                            </div>
-                        </div>
-                        <div class="col-right">
-                            <div class="menu-img"><img src="assets/images/myriam-zilles-KltoLK6Mk-g-unsplash.jpg" alt="myriam-zilles-KltoLK6Mk-g-unsplash.jpg"></div>
-                                <div class="menu3">
-                                    <a href="diabetes.php"><h5>
-                                    <span class="text3">Diabetes</span> 
-                                    <span class="text-primary">&#2547; ১০</span></h5>
-                                    <p class="para3">If you have any of the following diabetes symptoms, see your doctor about getting your blood sugar tested:</p></a>
-                                </div>
-                        </div>
-                    </div>
-                    <div class="menu-row">
-                        <div class="col-left">
-                            <div class="menu-img"><img src="assets/images/pexels-pixabay-208512.jpg" alt="pexels-pixabay-208512.jpg"></div>
-                            <div class="menu3">
-                                <a href="allergies.php"><h5>
-                                <span class="text3">Allergies</span> 
-                                <span class="text-primary">&#2547; ১০</span></h5>
-                                <p class="para3">Symptoms of an allergic reaction can include:</p></a>
-                            </div>
-                            </div>
-                        <div class="col-right">
-                         <div class="menu-img"><img src="assets/images/mufid-majnun-cM1aU42FnRg-unsplash.jpg" alt="mufid-majnun-cM1aU42FnRg-unsplash.jpg"></div>
-                         <div class="menu3">
-                                    <a href="asthma.php"><h5>
-                                    <span class="text3">Asthma</span> 
-                                    <span class="text-primary">&#2547; ১০</span></h5>
-                                    <p class="para3">Asthma symptoms vary from person to person and can include:</p></a>
-                                    </div>
-                        </div>
-                    </div>
-                    <div class="row menu-row">
-                        <div class="col-left">
-                            <div class="menu-img"><img src="assets/images/pexels-daniel-frank-287227.jpg" alt="pexels-daniel-frank-287227.jpg"></div>
-                            <div class="menu3">
-                                <a href="hepatitis.php"><h5>
-                                <span class="text3">Hepatitis</span> 
-                                <span class="text-primary">&#2547; ১০</span></h5>
-                                <p class="para3">The symptoms of types A, B, and C may include:</p></a>
-                            </div>
-                            </div>
-                            <div class="col-right">
-                            <div class="menu-img"><img src="assets/images/marcelo-leal-k7ll1hpdhFA-unsplash.jpg" alt="marcelo-leal-k7ll1hpdhFA-unsplash.jpg"></div>
-                            <div class="menu3">
-                                <a href="influenza.php"><h5>
-                                <span class="text3">Influenza</span> 
-                                <span class="text-primary">&#2547; ১০</span></h5>
-                                <p class="para3">People who are sick with Influenza often feel some or all of these symptoms:</p></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row menu-row">
-                        <div class="col-left">
-                            <div class="menu-img"><img src="assets/images/louis-reed-pwcKF7L4-no-unsplash.jpg" alt="louis-reed-pwcKF7L4-no-unsplash.jpg"></div>
-                            <div class="menu3">
-                                <a href="heart.php"><h5>
-                                <span class="text3">Heart Disease</span> 
-                                <span class="text-primary">&#2547; ১০</span></h5>
-                                <p class="para3">Heart disease can cause a variety of symptoms, including:</p></a>
-                            </div>
-                            </div>
-                            <div class="col-right">
-                                <div class="menu-img"><img src="assets/images/national-cancer-institute-XknuBmnjbKg-unsplash.jpg" alt="national-cancer-institute-XknuBmnjbKg-unsplash.jpg"></div>
-                                <div class="menu3">
-                                    <a href="sinusitis.php"><h5>
-                                    <span class="text3">Bacterial sinusitis</span> 
-                                    <span class="text-primary">&#2547; ১০</span></h5>
-                                    <p class="para3">Bacterial sinusitis, also known as a sinus infection, is an inflammation of the tissues lining the sinuses. Symptoms include:</p></a>
-                                    </div>
-                        </div>
-                    </div>
-                  </div>
-               
+<section class="symptom">            
+        <div class="s1head">
+            <div class="divider-head1">
+                <div class="divider1"></div>
+                <h3 class="heading-1">Check-up List</h3>
+                <div class="divider1"></div>
+            </div>
+        </div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8 mb-3 sym">
+<?php 
+include 'core/Database.php';
 
-                        </div>
-                    </div>    
-                </div>
+$db = new Database();
+
+// If the form is submitted
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $selected_symptoms = isset($_POST['symptoms']) ? $_POST['symptoms'] : [];
+
+    if (!empty($selected_symptoms)) {
+        // Convert selected symptoms into a comma-separated string for the query
+        $symptom_ids = implode(",", array_map(function($symptom) {
+            return "'" . $symptom . "'";
+        }, $selected_symptoms));
+
+        // SQL query to find diseases that match the selected symptoms
+        $sql = "SELECT diseases.name 
+                FROM diseases 
+                INNER JOIN disease_symptoms ON diseases.id = disease_symptoms.disease_id
+                WHERE disease_symptoms.symptom_id IN ($symptom_ids)
+                GROUP BY diseases.id
+                HAVING COUNT(DISTINCT disease_symptoms.symptom_id) = " . count($selected_symptoms);
+
+        // Execute the query and fetch results
+        $diseases = $db->fetch($sql);
+
+        // Display results
+        if (count($diseases) > 0) {
+            echo "<h2>Possible Disease(s):</h2>";
+            foreach ($diseases as $disease) {
+                echo "<p>" . $disease['name'] . "</p>";
+            }
+        } else {
+            echo "<p>No disease matches the selected symptoms.</p>";
+        }
+    } else {
+        echo "<p>Please select at least one symptom.</p>";
+    }
+}
+?>
 
 
+<div class="container">
+        <h1 class="mt-5">Predict Disease by Symptoms</h1>
+        <form method="post" action="">
+            <h3 class="mt-3">Select Symptoms:</h3>                                                                           
+            <?php
+            // Fetch symptoms from the database
+            $sql = "SELECT * FROM symptoms";
+            $symptoms = $db->fetch($sql);
+
+            // Display symptoms as checkboxes
+            if (count($symptoms) > 0) {
+                foreach ($symptoms as $symptom) {
+                    echo "<div class='form-check'>";
+                    echo "<input type='checkbox' class='form-check-input' name='symptoms[]' value='" . $symptom['id'] . "'>";
+                    echo "<label class='form-check-label'>" . $symptom['name'] . "</label>";
+                    echo "</div>";
+                }
+            } else {
+                echo "No symptoms found.";
+            }
+            ?>
+            <br>
+            <input type="submit" class="btn btn-primary" value="Predict Disease">
+        </form>
+    </div>
+                        
+                         
+                    </div>
+                 </div>    
+            </div>
 </section>
+<!-- End Symptom -->
+
+
+
+<!-- <section class="labtest">
+    <div class="s1head">
+            <div class="divider-head1">
+                <div class="divider1"></div>
+                <h3 class="heading-1">Diagnostic Services</h3>
+                <div class="divider1"></div>
+            </div>
+            <h2 class="heading-2">Best Heatlhcare Solution</h2>
+        </div>
+	<div class="container">
+	  <div class="row justify-content-center mb-5 ">
+      		 <div class="col-12 col-md-8 lab">
+                <h2 class="lab-heading"> <u>Radiology & Imaging Services</u> </h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul class="list-unstyled">
+                            <li><i class="fa-solid fa-check"></i> X-RAY</li>
+                            <li><i class="fa-solid fa-check"></i> EEG</li>
+                            <li><i class="fa-solid fa-check"></i> ETT</li>
+                            <li><i class="fa-solid fa-check"></i> MAMMOGRAPHY</li>
+                            <li><i class="fa-solid fa-check"></i> USG</li>
+                            <li><i class="fa-solid fa-check"></i> MRI</li>
+                            <li><i class="fa-solid fa-check"></i> ECHOCARDIOGRAM</li>
+                            <li><i class="fa-solid fa-check"></i> COLONOSCOPY</li>
+                            <li><i class="fa-solid fa-check"></i> HOLTER ECG</li>
+                            <li><i class="fa-solid fa-check"></i> ENDOSCOPY</li>
+                            <li><i class="fa-solid fa-check"></i> SPIROMETRY</li>
+                            <li><i class="fa-solid fa-check"></i> FIBER OPTIC LARYNGOSCOPY</li>
+                        </ul>
+                        <button type="button" class="btn btn-primary  btn1">Explore More <i class="bi bi-arrow-right"></i></button>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="list-unstyled">
+                            <li><i class="fa-solid fa-check"></i> CT SCAN</li>
+                            <li><i class="fa-solid fa-check"></i> DENTAL XRAY</li>
+                            <li><i class="fa-solid fa-check"></i> ERCP</li>
+                            <li><i class="fa-solid fa-check"></i> BONE DENSITOMETER</li>
+                            <li><i class="fa-solid fa-check"></i> ECG</li>
+                            <li><i class="fa-solid fa-check"></i> COLOR DOPPLER</li>
+                            <li><i class="fa-solid fa-check"></i> DUPLEX STUDY</li>
+                            <li><i class="fa-solid fa-check"></i> HOLTER MONITOR</li>
+                            <li><i class="fa-solid fa-check"></i> NCV/EMG</li>
+                            <li><i class="fa-solid fa-check"></i> UROFLOWMETRY</li>
+                            <li><i class="fa-solid fa-check"></i> FIBROSCAN</li>
+                            <li><i class="fa-solid fa-check"></i> COLPOSCOPY</li>
+                        </ul>
+                    </div>
+                </div>    
+              </div>  
+              <div class="col-12 col-md-8 mt-5 lab">
+                <h2 class="lab-heading"> <u>Pathology Services</u> </h2>
+                <ul class="list-unstyled">
+                    <li><i class="fa-solid fa-check"></i> IMMUNOLOGY</li>
+                    <li><i class="fa-solid fa-check"></i> BIOCHEMISTRY</li>
+                    <li><i class="fa-solid fa-check"></i> HAEMATOLOGY</li>
+                    <li><i class="fa-solid fa-check"></i> CLINICAL PATHOLOGY</li>
+                    <li><i class="fa-solid fa-check"></i> SEROLOGY</li>
+                    <li><i class="fa-solid fa-check"></i> MICROBIOLOGY</li>
+                    <li><i class="fa-solid fa-check"></i> HISTOPATHOLOGY</li>
+                    <li><i class="fa-solid fa-check"></i> CYTOPATHOLOGY</li>
+                    <li><i class="fa-solid fa-check"></i> CLINICAL PATHOLOGY</li>
+                    <li><i class="fa-solid fa-check"></i> PCR LAB</li>
+                    <li><i class="fa-solid fa-check"></i> FlOWCYTOMETRY</li>
+                    <li><i class="fa-solid fa-check"></i> IMMUNOHISTOCHEMISTRY</li>
+                </ul>
+                <button type="button" class="btn btn-primary btn1">Explore More <i class="bi bi-arrow-right"></i></button>
+              </div>
+              
+        </div>
+	</div>
+</section> -->
 <!-- End Labtest -->
 
 <?php include 'footer.php'?>
+
+

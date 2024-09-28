@@ -83,8 +83,8 @@
         </div>
        
         <p class="para-8">Designed By Radia</p>
-    </footer>
-    <!-- End Footer -->
+</footer>
+<!-- End Footer -->
 
 
 

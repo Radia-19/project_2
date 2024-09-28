@@ -69,7 +69,7 @@
 </main>
 
 
-<?php include 'footer.php'?>
+
   <script>  
         function validation(){   
             var password=document.f2.password.value;  
@@ -92,3 +92,4 @@
             }
         } 
   </script>
+<?php include 'footer.php'?>
