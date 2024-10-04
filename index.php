@@ -15,7 +15,7 @@
                 <div class="carousel-item active banner-img1">
                   <div class="carousel-caption d-none d-md-block">
                     <h1 class="head1">The perfect place for your <br> Health Care</h1>
-                    <p class="text-black">Medicare hospital ensures the best healthcare service comprise of professional<br> service excellence with outstanding personal service</p>
+                    <p class="text-black">মেডিকেয়ার হাসপাতাল অসামান্য ব্যক্তিগত পরিষেবা সহ পেশাদার<br> পরিষেবার শ্রেষ্ঠত্বের সমন্বয়ে সেরা স্বাস্থ্যসেবা পরিষেবা নিশ্চিত করে</p>
                     <?php if(isset($_SESSION['username'])): ?>
                     <a href="booking.php"><button type="button" class="btn btn-light text-primary">Booking Now</button></a>
                     <?php else: ?>
@@ -26,7 +26,7 @@
                 <div class="carousel-item banner-img2">
                   <div class="carousel-caption d-none d-md-block">
                     <h1 class="head1">The perfect solution for your <br> disease prediction</h1>
-                    <p class="text-black">Medicare hospital ensures the best healthcare service comprise of professional<br> service excellence with outstanding personal service</p>
+                    <p class="text-danger">রোগ বিশ্লেষণের জন্য সেরা ওয়েবসাইট</p>
                     <?php if(isset($_SESSION['username'])): ?>
                     <a href="booking.php"><button type="button" class="btn btn-light text-primary">Booking Now</button></a>
                     <?php else: ?>
@@ -37,7 +37,7 @@
                 <div class="carousel-item banner-img3">
                   <div class="carousel-caption d-none d-md-block">
                     <h1 class="head1">The perfect opportunity for <br> medical survice</h1>
-                    <p class="text-secondary">Medicare hospital ensures the best healthcare service comprise of professional<br> service excellence with outstanding personal service</p>
+                    <p class="text-success">স্বাস্থ্যসেবার জন্য কোনো আপস নয়</p>
                     <?php if(isset($_SESSION['username'])): ?>
                     <a href="booking.php"><button type="button" class="btn btn-light text-primary">Booking Now</button></a>
                     <?php else: ?>
@@ -48,7 +48,7 @@
                 <div class="carousel-item banner-img4">
                   <div class="carousel-caption d-none d-md-block">
                     <h1 class="head1">The perfect goal for your <br> health achivement</h1>
-                    <p class="text-white">Medicare hospital ensures the best healthcare service comprise of professional<br> service excellence with outstanding personal service</p>
+                    <p class="text-white">বিশ্বাস, নিশ্চয়তা এবং সাফল্যের জন্য সেরা জায়গা</p>
                     <?php if(isset($_SESSION['username'])): ?>
                     <a href="booking.php"><button type="button" class="btn btn-light text-primary">Booking Now</button></a>
                     <?php else: ?>
@@ -128,7 +128,7 @@
                         <a href="#"><h5>
                         <span class="text3">Cold & Cough</span> 
                         <span class="text-primary bangla">&#2547; ১০</span></h5>
-                        <p class="para3">A cough is a common symptom of the cold, which can also cause other symptoms, such as:</p></a>
+                        <p class="para3">কাশি হল সর্দির একটি সাধারণ উপসর্গ, যা অন্যান্য উপসর্গও সৃষ্টি করতে পারে, যেমন:</p></a>
                     </div>
                 </div>
                 <div class="col-right">
@@ -137,7 +137,7 @@
                             <a href="#"><h5>
                             <span class="text3">Diabetes</span> 
                             <span class="text-primary">&#2547; ১০</span></h5>
-                            <p class="para3">If you have any of the following diabetes symptoms, see your doctor about getting your blood sugar tested:</p></a>
+                            <p class="para3">আপনার যদি নিম্নলিখিত ডায়াবেটিসের উপসর্গ থাকে তবে আপনার রক্তে শর্করা পরীক্ষা করার বিষয়ে আপনার ডাক্তারকে দেখুন:</p></a>
                         </div>
                 </div>
             </div>
@@ -148,7 +148,7 @@
                         <a href="#"><h5>
                         <span class="text3">Allergies</span> 
                         <span class="text-primary">&#2547; ১০</span></h5>
-                        <p class="para3">Symptoms of an allergic reaction can include:</p></a>
+                        <p class="para3">অ্যালার্জির প্রতিক্রিয়ার লক্ষণগুলি অন্তর্ভুক্ত করতে পারে:</p></a>
                     </div>
                     </div>
                 <div class="col-right">
@@ -157,7 +157,7 @@
                             <a href="asthma.php"><h5>
                             <span class="text3">Asthma</span> 
                             <span class="text-primary">&#2547; ১০</span></h5>
-                            <p class="para3">Asthma symptoms vary from person to person and can include:</p></a>
+                            <p class="para3">হাঁপানির উপসর্গ ব্যক্তিভেদে পরিবর্তিত হয় এবং এতে অন্তর্ভুক্ত থাকতে পারে:</p></a>
                             </div>
                 </div>
             </div>
@@ -168,7 +168,7 @@
                         <a href="#"><h5>
                         <span class="text3">Hepatitis</span> 
                         <span class="text-primary">&#2547; ১০</span></h5>
-                        <p class="para3">The symptoms of types A, B, and C may include:</p></a>
+                        <p class="para3">A, B, এবং C ধরনের লক্ষণগুলির মধ্যে অন্তর্ভুক্ত থাকতে পারে:</p></a>
                     </div>
                     </div>
                     <div class="col-right">
@@ -177,7 +177,7 @@
                         <a href="#"><h5>
                         <span class="text3">Influenza</span> 
                         <span class="text-primary">&#2547; ১০</span></h5>
-                        <p class="para3">People who are sick with Influenza often feel some of these symptoms:</p></a>
+                        <p class="para3">যারা ইনফ্লুয়েঞ্জায় অসুস্থ তারা প্রায়ই এই লক্ষণগুলির মধ্যে কিছু অনুভব করেন:</p></a>
                     </div>
                 </div>
             </div>
@@ -188,7 +188,7 @@
                         <a href="#"><h5>
                         <span class="text3">Heart Disease</span> 
                         <span class="text-primary">&#2547; ১০</span></h5>
-                        <p class="para3">Heart disease can cause a variety of symptoms, including:</p></a>
+                        <p class="para3">হৃদরোগ বিভিন্ন উপসর্গের কারণ হতে পারে, যার মধ্যে রয়েছে:</p></a>
                     </div>
                     </div>
                     <div class="col-right">
@@ -197,7 +197,7 @@
                             <a href="#"><h5>
                             <span class="text3">Bacterial sinusitis</span> 
                             <span class="text-primary">&#2547; ১০</span></h5>
-                            <p class="para3">Bacterial sinusitis, also known as a sinus infection, is an inflammation of the tissues lining the sinuses. Symptoms include:</p></a>
+                            <p class="para3">ব্যাকটেরিয়াল সাইনোসাইটিস হল সাইনাসের আস্তরণকারী টিস্যুগুলির একটি প্রদাহ। উপসর্গ অন্তর্ভুক্ত:</p></a>
                             </div>
                 </div>
             </div>

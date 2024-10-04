@@ -11,7 +11,7 @@
         <div class="s1head">
             <div class="divider-head1">
                 <div class="divider1"></div>
-                <h3 class="heading-1">Check-up List</h3>
+                <h3 class="heading-1 my-4">Check-up List</h3>
                 <div class="divider1"></div>
             </div>
         </div>
@@ -46,12 +46,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Display results
         if (count($diseases) > 0) {
-            echo "<h2>Possible Disease(s):</h2>";
+            echo "<h2 class='alert alert-info'>Possible Disease(s): [I'd suggest seeing a specialist]</h2>";
             foreach ($diseases as $disease) {
                 echo "<p>" . $disease['name'] . "</p>";
             }
         } else {
-            echo "<p>No disease matches the selected symptoms.</p>";
+            echo "<p class='alert alert-danger'>If you seem to have all symptoms, you should visit a consultant First!!</p>";
         }
     } else {
         echo "<p>Please select at least one symptom.</p>";
