@@ -2,72 +2,49 @@
 <?php include 'header.php'?>
 <?php include 'loginCheck.php'?>
 <?php include 'navbar.php'?>
-<?php include 'core/Price.php';
+<?php include 'core/Amount.php';
 //$db = new Database();
 ?>
 
 <!-- Custom CSS -->
 <link rel="stylesheet" href="assets/css/pricing.css">
-<div class="container">
-    
-
 <?php
-
-// Create an instance of the Price class
-$price = new Price();
-
-if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    if (isset($_POST['items']) && isset($_POST['package'])) {
-        $selected_items = $_POST['items']; // Array of selected item IDs
-        $packages = $_POST['package'];  // Array of packages indexed by item ID
-
-        $total = 0;
-        $items_summary = [];
-
-        foreach ($selected_items as $item_id) {
-            $item = $price->getOneItem($item_id);
-            $item_total = $item['price'] * $quantities[$item_id];
-            $total += $item_total;
-
-            $items_summary[] = [
-                'name' => $item['name'],  // Assuming name is the item name
-                'price' => $item['price'], // Assuming price is a valid field
-                'package' => $packages[$item_id],
-                'total' => $item_total
-            ];
-        }
-    } else {
-        echo "No items selected or packages provided.";
-    }
-}
+    if(!isset($_SESSION)) 
+        { 
+            session_start(); 
+        }  
 ?>
-
-
+<div class="container">
     <h1 class="text-center">Payment Summary</h1>
+
     <table class="table table-hover m-auto border border-2">
         <thead>
             <tr>
                 <th class="pe-3">Disease Name</th>
-                <th class="pe-3">Price</th>
-                <th class="pe-3">package</th>
+                <th class="pe-3">Package</th>
+                <th class="pe-3">Amount</th>
                 <th class="pe-3">Total</th>
             </tr>
         </thead>
         <tbody>
-            <?php foreach ($items_summary as $item) { ?>
-            <tr>
-                <td><?php echo $item['name']; ?></td>
-                <td><?php echo $item['price']; ?></td>
-                <td><?php echo $item['package']; ?></td>
-                <td><?php echo $item['total']; ?></td>
-            </tr>
-            <?php } ?>
+        <?php 
+            if (isset($_SESSION['items_summary']) && isset($_SESSION['total']) != 0) {
+                foreach ($_SESSION['items_summary'] as $item) { ?>
+                <tr>
+                    <td><?php echo htmlspecialchars($item['name']); ?></td>  <!-- Safeguarding output -->
+                    <td><?php echo htmlspecialchars($item['package']); ?></td>
+                    <td><?php echo number_format($item['amount'], 2); ?> BDT</td>  <!-- Formatted amount -->
+                    <td><?php echo number_format($item['total'], 2); ?> BDT</td>  <!-- Formatted total -->
+                </tr>
+        <?php } ?>
+        <?php } else { ?>
+                <tr><td colspan="4">No items selected.</td></tr>
+        <?php } ?>
         </tbody>
     </table>
-    <h3 class="text-center my-4">Total Payment: <?php echo isset($total) ? $total : '0'; ?></h3>
+    <h3 class="text-center my-4">Total Payment: <?php echo isset($_SESSION['total']) ? number_format($_SESSION['total'], 2) . ' BDT' : '0 BDT'; ?></h3>
+</div>
 
-
-</div>    
 <?php include 'footer.php'?>
 
 

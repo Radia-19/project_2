@@ -3,6 +3,8 @@
 
 <!-- Custom CSS -->
 <link rel="stylesheet" href="assets/css/about.css">
+<!-- Responsive CSS -->
+<link rel="stylesheet" href="assets/css/responsive.css">
 
 <section class="about mt-5">
 	
@@ -135,4 +137,4 @@
 
 
 
-<?php include 'footer.php'?>
+<?php include '../footer.php'?>

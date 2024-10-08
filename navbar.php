@@ -40,7 +40,7 @@ if(!isset($_SESSION['username'])){
                   </li>
 
                   <?php if(isset($_SESSION['username'])): ?>  
-                    <a class="nav-link" href="payment.php">Payment Info</a>
+                    <a class="nav-link" href="paymentinfo.php">Payment Info</a>
                     <a class="nav-link" href="prediction.php">Prediction</a>
                     <a class="nav-link" href="logout.php">Logout (<?= $_SESSION['username'] ?>)</a>
                   <?php else: ?>

@@ -51,7 +51,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 echo "<p>" . $disease['name'] . "</p>";
             }
         } else {
-            echo "<p class='alert alert-danger'>If you seem to have all symptoms, you should visit a consultant First!!</p>";
+            echo "<p class='alert alert-danger'>If you seem to have many symptoms, you should visit a consultant First!!</p>";
         }
     } else {
         echo "<p>Please select at least one symptom.</p>";
@@ -92,81 +92,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             </div>
 </section>
 <!-- End Symptom -->
-
-
-
-<!-- <section class="labtest">
-    <div class="s1head">
-            <div class="divider-head1">
-                <div class="divider1"></div>
-                <h3 class="heading-1">Diagnostic Services</h3>
-                <div class="divider1"></div>
-            </div>
-            <h2 class="heading-2">Best Heatlhcare Solution</h2>
-        </div>
-	<div class="container">
-	  <div class="row justify-content-center mb-5 ">
-      		 <div class="col-12 col-md-8 lab">
-                <h2 class="lab-heading"> <u>Radiology & Imaging Services</u> </h2>
-                <div class="row">
-                    <div class="col-md-6">
-                        <ul class="list-unstyled">
-                            <li><i class="fa-solid fa-check"></i> X-RAY</li>
-                            <li><i class="fa-solid fa-check"></i> EEG</li>
-                            <li><i class="fa-solid fa-check"></i> ETT</li>
-                            <li><i class="fa-solid fa-check"></i> MAMMOGRAPHY</li>
-                            <li><i class="fa-solid fa-check"></i> USG</li>
-                            <li><i class="fa-solid fa-check"></i> MRI</li>
-                            <li><i class="fa-solid fa-check"></i> ECHOCARDIOGRAM</li>
-                            <li><i class="fa-solid fa-check"></i> COLONOSCOPY</li>
-                            <li><i class="fa-solid fa-check"></i> HOLTER ECG</li>
-                            <li><i class="fa-solid fa-check"></i> ENDOSCOPY</li>
-                            <li><i class="fa-solid fa-check"></i> SPIROMETRY</li>
-                            <li><i class="fa-solid fa-check"></i> FIBER OPTIC LARYNGOSCOPY</li>
-                        </ul>
-                        <button type="button" class="btn btn-primary  btn1">Explore More <i class="bi bi-arrow-right"></i></button>
-                    </div>
-                    <div class="col-md-6">
-                        <ul class="list-unstyled">
-                            <li><i class="fa-solid fa-check"></i> CT SCAN</li>
-                            <li><i class="fa-solid fa-check"></i> DENTAL XRAY</li>
-                            <li><i class="fa-solid fa-check"></i> ERCP</li>
-                            <li><i class="fa-solid fa-check"></i> BONE DENSITOMETER</li>
-                            <li><i class="fa-solid fa-check"></i> ECG</li>
-                            <li><i class="fa-solid fa-check"></i> COLOR DOPPLER</li>
-                            <li><i class="fa-solid fa-check"></i> DUPLEX STUDY</li>
-                            <li><i class="fa-solid fa-check"></i> HOLTER MONITOR</li>
-                            <li><i class="fa-solid fa-check"></i> NCV/EMG</li>
-                            <li><i class="fa-solid fa-check"></i> UROFLOWMETRY</li>
-                            <li><i class="fa-solid fa-check"></i> FIBROSCAN</li>
-                            <li><i class="fa-solid fa-check"></i> COLPOSCOPY</li>
-                        </ul>
-                    </div>
-                </div>    
-              </div>  
-              <div class="col-12 col-md-8 mt-5 lab">
-                <h2 class="lab-heading"> <u>Pathology Services</u> </h2>
-                <ul class="list-unstyled">
-                    <li><i class="fa-solid fa-check"></i> IMMUNOLOGY</li>
-                    <li><i class="fa-solid fa-check"></i> BIOCHEMISTRY</li>
-                    <li><i class="fa-solid fa-check"></i> HAEMATOLOGY</li>
-                    <li><i class="fa-solid fa-check"></i> CLINICAL PATHOLOGY</li>
-                    <li><i class="fa-solid fa-check"></i> SEROLOGY</li>
-                    <li><i class="fa-solid fa-check"></i> MICROBIOLOGY</li>
-                    <li><i class="fa-solid fa-check"></i> HISTOPATHOLOGY</li>
-                    <li><i class="fa-solid fa-check"></i> CYTOPATHOLOGY</li>
-                    <li><i class="fa-solid fa-check"></i> CLINICAL PATHOLOGY</li>
-                    <li><i class="fa-solid fa-check"></i> PCR LAB</li>
-                    <li><i class="fa-solid fa-check"></i> FlOWCYTOMETRY</li>
-                    <li><i class="fa-solid fa-check"></i> IMMUNOHISTOCHEMISTRY</li>
-                </ul>
-                <button type="button" class="btn btn-primary btn1">Explore More <i class="bi bi-arrow-right"></i></button>
-              </div>
-              
-        </div>
-	</div>
-</section> -->
-<!-- End Labtest -->
 
 <?php include 'footer.php'?>
 

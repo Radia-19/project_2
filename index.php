@@ -69,7 +69,6 @@
         <!-- End Banner -->
         <section class="sec1">
             <div class="s1row">
-               
                 <div class="s1col">
                     <a href="#doctors">
                     <i class="fa-solid fa-user-doctor"></i>
