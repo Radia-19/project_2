@@ -4,10 +4,10 @@ include 'Database.php';
 class Amount extends Database
 {
     
-    public function addItem($id,$name,$amount,$quantities)
+    public function addItem($id,$name,$amount)
     {
 		$created_at = date('Y-m-d H:i:s');
-		$sql = "INSERT INTO items (id,name,amount,quantities,created_at) VALUES ('$id','$name','$amount','$quantities','$created_at')";//query
+		$sql = "INSERT INTO items (id,name,amount,created_at) VALUES ('$id','$name','$amount','$created_at')";
 		$this->exec($sql);
 		return true;
 	}
@@ -17,12 +17,17 @@ class Amount extends Database
 		$this->exec($sql);
 		return true;
 	}
-    public function getAllItems() 
+    public function getAllItems($search = "") 
     {
-        $query = "SELECT items.id, items.name, items.amount, items.quantities FROM items JOIN packages on packages.name";
+        if($search == "")
+        {
+            $sql = "SELECT items.id, items.name, items.amount FROM items JOIN packages on packages.name";
+        }else{ 
+            $sql = "SELECT items.id, items.name, items.amount FROM items JOIN packages on packages.name";
+        }       
         return $this->fetch($sql);
     }
-    
+
     public function getOneItem($item_id) 
     {
         $sql = "SELECT * FROM items WHERE id = :item_id";
@@ -31,25 +36,17 @@ class Amount extends Database
         $statement->execute();  // Execute the query
         return $statement->fetch();  // Fetch the single item
     }
+    public function addAllItemPackages($id,$item_id,$package_id)
+    {
+        $sql = "INSERT INTO item_packages (id,item_id,package_id) VALUES ('$id','$item_id','$package_id')";//query
+        $this->exec($sql);
+        return true;
+    }
+    public function getItemPackage()
+    {
+        $sql = "SELECT * FROM item_package WHERE package_id == packages.id";
+        return $this->fetch($sql);
+    }
 
-    // private $db;
-
-    // public function __construct() {
-    //     $this->db = new Database();  
-    // }
-    // Get price for a single item, with validation for the item ID
-    // public function getOneItem($item_id){
-    //     $item_id = intval($item_id);
-    //     if ($item_id <= 0){
-    //         return null;  // Invalid item ID
-    //     }
-    //     $query = "SELECT id, name, price FROM items WHERE id = :item_id";
-    //     $this->db->query($query);
-    //     $this->db->bind(':item_id', $item_id);
-    //     return $this->db->single();
-    // }
-
-    // Fetch all items for display on the page
-    
 }
 ?>

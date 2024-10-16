@@ -48,6 +48,13 @@
                    </ul>
                 
             </div>
+             <?php 
+                if(isset($_POST['submit'])){
+                   $newsletter = new User;
+                   $newsletter->newsletter($_POST['newsletter']); 
+                   echo "<p class='alert alert-success'>We got your mail. You will receive updates from us. Thank you!!</p>";
+                }
+            ?>
             <div class="footer-col">
                 <div class="divider-head">
                     <h3 class="s4head">Newsletter</h3>
@@ -55,9 +62,10 @@
                    </div>
                   <p>Healthcare content tips and ideas from Medicare Group.In your inbox, twice per month.</p>
                   <div class="letter">
-                    <input type="email" placeholder="Your E-mail" class="footin">
-                    <button type="submit" class="letter-btn">Register</button> 
-                    
+                    <form action="" method="POST">
+                    <input type="email" placeholder="Your E-mail" class="footin" name="newsletter">
+                    <button type="submit" class="letter-btn">Send</button> 
+                    </form>
                   </div>
             </div>
         </div>

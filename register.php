@@ -53,7 +53,7 @@
                 </div>  
                 <div class="form-check d-flex justify-content-center mb-5">
                   <input class="form-check-input me-2 check" type="checkbox" name="check" onclick="myFunction()" id="termscondition">
-                  <label class="form-check-label" for="form2Example3g">I agree all statements in <a href="#" class="text-body"><u>Terms of service</u></a></label>
+                  <label class="form-check-label" for="termscondition">I agree all statements in <a href="#" class="text-body"><u>Terms of service</u></a></label>
                 </div>
 
                	<div class="d-flex justify-content-center mb-4">

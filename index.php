@@ -126,7 +126,7 @@
                     <div class="menu3"> 
                         <a href="#"><h5>
                         <span class="text3">Cold & Cough</span> 
-                        <span class="text-primary bangla">&#2547; ১০</span></h5>
+                        <span class="text-primary bangla">&#2547; ১০০</span></h5>
                         <p class="para3">কাশি হল সর্দির একটি সাধারণ উপসর্গ, যা অন্যান্য উপসর্গও সৃষ্টি করতে পারে, যেমন:</p></a>
                     </div>
                 </div>
@@ -135,7 +135,7 @@
                         <div class="menu3">
                             <a href="#"><h5>
                             <span class="text3">Diabetes</span> 
-                            <span class="text-primary">&#2547; ১০</span></h5>
+                            <span class="text-primary">&#2547; ১৫০</span></h5>
                             <p class="para3">আপনার যদি নিম্নলিখিত ডায়াবেটিসের উপসর্গ থাকে তবে আপনার রক্তে শর্করা পরীক্ষা করার বিষয়ে আপনার ডাক্তারকে দেখুন:</p></a>
                         </div>
                 </div>
@@ -146,7 +146,7 @@
                     <div class="menu3">
                         <a href="#"><h5>
                         <span class="text3">Allergies</span> 
-                        <span class="text-primary">&#2547; ১০</span></h5>
+                        <span class="text-primary">&#2547; ১২০</span></h5>
                         <p class="para3">অ্যালার্জির প্রতিক্রিয়ার লক্ষণগুলি অন্তর্ভুক্ত করতে পারে:</p></a>
                     </div>
                     </div>
@@ -155,7 +155,7 @@
                  <div class="menu3">
                             <a href="asthma.php"><h5>
                             <span class="text3">Asthma</span> 
-                            <span class="text-primary">&#2547; ১০</span></h5>
+                            <span class="text-primary">&#2547; ১৬০</span></h5>
                             <p class="para3">হাঁপানির উপসর্গ ব্যক্তিভেদে পরিবর্তিত হয় এবং এতে অন্তর্ভুক্ত থাকতে পারে:</p></a>
                             </div>
                 </div>
@@ -166,7 +166,7 @@
                     <div class="menu3">
                         <a href="#"><h5>
                         <span class="text3">Hepatitis</span> 
-                        <span class="text-primary">&#2547; ১০</span></h5>
+                        <span class="text-primary">&#2547; ১৭০</span></h5>
                         <p class="para3">A, B, এবং C ধরনের লক্ষণগুলির মধ্যে অন্তর্ভুক্ত থাকতে পারে:</p></a>
                     </div>
                     </div>
@@ -175,7 +175,7 @@
                     <div class="menu3">
                         <a href="#"><h5>
                         <span class="text3">Influenza</span> 
-                        <span class="text-primary">&#2547; ১০</span></h5>
+                        <span class="text-primary">&#2547; ১৩০</span></h5>
                         <p class="para3">যারা ইনফ্লুয়েঞ্জায় অসুস্থ তারা প্রায়ই এই লক্ষণগুলির মধ্যে কিছু অনুভব করেন:</p></a>
                     </div>
                 </div>
@@ -186,7 +186,7 @@
                     <div class="menu3">
                         <a href="#"><h5>
                         <span class="text3">Heart Disease</span> 
-                        <span class="text-primary">&#2547; ১০</span></h5>
+                        <span class="text-primary">&#2547; ২০০</span></h5>
                         <p class="para3">হৃদরোগ বিভিন্ন উপসর্গের কারণ হতে পারে, যার মধ্যে রয়েছে:</p></a>
                     </div>
                     </div>
@@ -195,7 +195,7 @@
                         <div class="menu3">
                             <a href="#"><h5>
                             <span class="text3">Bacterial sinusitis</span> 
-                            <span class="text-primary">&#2547; ১০</span></h5>
+                            <span class="text-primary">&#2547; ১৬০</span></h5>
                             <p class="para3">ব্যাকটেরিয়াল সাইনোসাইটিস হল সাইনাসের আস্তরণকারী টিস্যুগুলির একটি প্রদাহ। উপসর্গ অন্তর্ভুক্ত:</p></a>
                             </div>
                 </div>

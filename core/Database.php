@@ -12,6 +12,7 @@ class Database
 
 		try {
 		  $this->conn = new PDO("mysql:host=$host;dbname=$dbName", $dbUser, $dbPass);
+		  $this->conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 		}catch(PDOException $e) {
 		  echo "Connection failed: " . $e->getMessage();
 		}
@@ -20,18 +21,30 @@ class Database
         // }
 	}
 
-	public function exec($sql)
+	public function exec($sql, $params = [])
 	{
 		$statement = $this->conn->prepare($sql);
-    	$statement->execute();
+    	$statement->execute($params);
 	}
 
 	public function fetch($sql)
 	{
-		$statement = $this->conn->prepare($sql);
-        $statement->execute();
+		$statement = $this->conn->prepare($sql, $params = []);
+        $statement->execute($params);
         return $statement->fetchAll(PDO::FETCH_ASSOC);
 	}
+	public function fetchOne($sql, $params = [])
+    {
+        $statement = $this->conn->prepare($sql);
+        $statement->execute($params);
+        return $statement->fetch(PDO::FETCH_ASSOC);
+    }
+
+    // Close the connection (optional)
+    public function close()
+    {
+        $this->conn = null;
+    }
 
 	// // Prepare and execute queries (this is how should be handled SQL in Price.php)
     // public function query($query) {

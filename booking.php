@@ -34,7 +34,7 @@
                 </div>
                 <div class="table2">
                     <div class="tab-col-left">
-                        <input type="text" placeholder="Doctor's name" name="doctor_name" class="book2">
+                        <input type="text" placeholder="Doctor's name" name="doctor_name" class="book2" required>
                     </div>
                     <div class="tab-col-right">
                         <div class="select-people">

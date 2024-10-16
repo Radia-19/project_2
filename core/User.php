@@ -29,6 +29,11 @@ class User extends Database
         $password = md5($password);
         $sql = "SELECT * FROM users WHERE username ='$username' AND password ='$password' AND role ='$role'";
         return $this->fetch($sql);
-    }  
+    } 
+    public function newsletter($newsletter)
+    {
+        $sql = "INSERT INTO users (newsletter) VALUES ('$newsletter')";//query
+        $this->exec($sql);
+    } 
 }
 ?> 
